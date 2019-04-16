@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_nGqjIF76EemGWvwDoSVWMA" guid="_nGqjIF76EemGWvwDoSVWMA">
+    <resourceDescriptors xmi:id="_nGqjIV76EemGWvwDoSVWMA" id="-R-tGigpQzHrHEZkhfE3IIg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_bAPRoGBfEemcTfvsET9yrA" id="-HnAmCXk9qgn96PzKRdWLDg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_m3pPsF76EemGWvwDoSVWMA" name="evolutionary_delivery" guid="_m3pPsF76EemGWvwDoSVWMA">
+    <methodElementProperty xmi:id="_m3rr8F76EemGWvwDoSVWMA" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_y88YIF77EemGWvwDoSVWMA" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wtIHEF76EemGWvwDoSVWMA" name="software_concept" guid="_wtIHEF76EemGWvwDoSVWMA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_loT10GBaEemcTfvsET9yrA" name="Develop Vision" guid="_loT10GBaEemcTfvsET9yrA">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_loT10WBaEemcTfvsET9yrA" name="Develop Vision" guid="_loT10WBaEemcTfvsET9yrA" presentationName="Develop Vision" superActivities="_wtIHEV76EemGWvwDoSVWMA" isRepeatable="true"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_u1rH0GBbEemcTfvsET9yrA" name="Gather Requirements" guid="_u1rH0GBbEemcTfvsET9yrA">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_u1rH0WBbEemcTfvsET9yrA" name="Gather Requirements" guid="_u1rH0WBbEemcTfvsET9yrA" presentationName="Gather Requirements" superActivities="_wtIHEV76EemGWvwDoSVWMA" isRepeatable="true" linkToPredecessor="_UYC9AGBcEemcTfvsET9yrA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_UYC9AGBcEemcTfvsET9yrA" guid="_UYC9AGBcEemcTfvsET9yrA" pred="_loT10WBaEemcTfvsET9yrA"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_59tMMGBbEemcTfvsET9yrA" name="Detail Requirements" guid="_59tMMGBbEemcTfvsET9yrA">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_59tMMWBbEemcTfvsET9yrA" name="Detail Requirements" guid="_59tMMWBbEemcTfvsET9yrA" presentationName="Detail Requirements" superActivities="_wtIHEV76EemGWvwDoSVWMA" isRepeatable="true" linkToPredecessor="_v8l3IGBcEemcTfvsET9yrA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_v8l3IGBcEemcTfvsET9yrA" guid="_v8l3IGBcEemcTfvsET9yrA" pred="_u1rH0WBbEemcTfvsET9yrA"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_-ANYUGBbEemcTfvsET9yrA" name="Risk Management" guid="_-ANYUGBbEemcTfvsET9yrA">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_-ANYUWBbEemcTfvsET9yrA" name="Risk Management" guid="_-ANYUWBbEemcTfvsET9yrA" presentationName="Risk Management" superActivities="_wtIHEV76EemGWvwDoSVWMA" isRepeatable="true" linkToPredecessor="_wo_DEGBcEemcTfvsET9yrA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wo_DEGBcEemcTfvsET9yrA" guid="_wo_DEGBcEemcTfvsET9yrA" pred="_59tMMWBbEemcTfvsET9yrA"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_wtIHEV76EemGWvwDoSVWMA" name="software_concept" guid="_wtIHEV76EemGWvwDoSVWMA" presentationName="Software Concept" briefDescription="The initial elicitation, formulation, and evaluation of project requirements for a given iteration. Performs risk identification on the requirements so that they can be further scrutinized in later phases." superActivities="_m3pPsV76EemGWvwDoSVWMA" isRepeatable="true" breakdownElements="_loT10WBaEemcTfvsET9yrA _u1rH0WBbEemcTfvsET9yrA _59tMMWBbEemcTfvsET9yrA _-ANYUWBbEemcTfvsET9yrA">
+        <presentation xmi:id="-HnAmCXk9qgn96PzKRdWLDg" href="uma://-R-tGigpQzHrHEZkhfE3IIg#-HnAmCXk9qgn96PzKRdWLDg"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_m3pPsV76EemGWvwDoSVWMA" name="evolutionary_delivery" guid="_m3pPsV76EemGWvwDoSVWMA" presentationName="Evolutionary Delivery" breakdownElements="_wtIHEV76EemGWvwDoSVWMA">
+      <presentation xmi:id="-R-tGigpQzHrHEZkhfE3IIg" href="uma://-R-tGigpQzHrHEZkhfE3IIg#-R-tGigpQzHrHEZkhfE3IIg"/>
+      <defaultContext href="uma://_eee6YF1PEemG5bi738it6g#_ug1jsF1PEemG5bi738it6g"/>
+      <validContext href="uma://_eee6YF1PEemG5bi738it6g#_ug1jsF1PEemG5bi738it6g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

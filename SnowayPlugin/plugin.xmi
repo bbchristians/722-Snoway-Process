@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_w0ExsV1PEemG5bi738it6g" guid="_w0ExsV1PEemG5bi738it6g"/>
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_w0ExsV1PEemG5bi738it6g" guid="_w0ExsV1PEemG5bi738it6g">
+    <subManagers xmi:id="_nGqjIF76EemGWvwDoSVWMA" href="uma://_m3pPsF76EemGWvwDoSVWMA#_nGqjIF76EemGWvwDoSVWMA"/>
+    <resourceDescriptors xmi:id="_nGoG4F76EemGWvwDoSVWMA" id="_m3pPsF76EemGWvwDoSVWMA" uri="deliveryprocesses/evolutionary_delivery/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_w0ExoF1PEemG5bi738it6g" name="SnowayPlugin" guid="_w0ExoF1PEemG5bi738it6g">
     <methodElementProperty xmi:id="_w0Exs11PEemG5bi738it6g" name="plugin_synFree" value="true"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExoV1PEemG5bi738it6g" name="Content" guid="_w0ExoV1PEemG5bi738it6g">
@@ -23,11 +26,16 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_7OWYIF1PEemG5bi738it6g" name="test_artifact_ben" guid="_7OWYIF1PEemG5bi738it6g" presentationName="Test Artifact Ben">
             <methodElementProperty xmi:id="_937CcF1PEemG5bi738it6g" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_F5ye0F8LEemGWvwDoSVWMA" name="define_vison" guid="_F5ye0F8LEemGWvwDoSVWMA" presentationName="Define Vison" briefDescription="Defines the scope for what the requirements for this iteration should cover">
+            <methodElementProperty xmi:id="_gcIfoF8MEemGWvwDoSVWMA" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_w0ExrV1PEemG5bi738it6g" name="CapabilityPatterns" guid="_w0ExrV1PEemG5bi738it6g"/>
     </methodPackages>
-    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_w0Exrl1PEemG5bi738it6g" name="DeliveryProcesses" guid="_w0Exrl1PEemG5bi738it6g"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_w0Exrl1PEemG5bi738it6g" name="DeliveryProcesses" guid="_w0Exrl1PEemG5bi738it6g">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_m3pPsF76EemGWvwDoSVWMA" href="uma://_m3pPsF76EemGWvwDoSVWMA#_m3pPsF76EemGWvwDoSVWMA"/>
+    </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_w0Exr11PEemG5bi738it6g" name="ProcessContributions" guid="_w0Exr11PEemG5bi738it6g"/>
   </org.eclipse.epf.uma:MethodPlugin>
 </xmi:XMI>

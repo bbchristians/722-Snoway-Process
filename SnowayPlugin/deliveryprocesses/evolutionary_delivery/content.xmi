@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-R-tGigpQzHrHEZkhfE3IIg" name="Test,_m3pPsV76EemGWvwDoSVWMA" guid="-R-tGigpQzHrHEZkhfE3IIg"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-HnAmCXk9qgn96PzKRdWLDg" name="software_concept,_wtIHEV76EemGWvwDoSVWMA" guid="-HnAmCXk9qgn96PzKRdWLDg">
+    <mainDescription>&lt;span id=&quot;docs-internal-guid-adad70d7-7fff-900e-f766-b1feaa6bfcdd&quot;&#xD;
+style=&quot;FONT-SIZE: 11pt; TEXT-DECORATION: none; FONT-FAMILY: Arial; FONT-VARIANT: normal; VERTICAL-ALIGN: baseline; WHITE-SPACE: pre-wrap; FONT-WEIGHT: 400; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: transparent&quot;>&#xD;
+The initial elicitation, formulation, and evaluation of project requirements for a given iteration. Performs risk&#xD;
+identification on the requirements so that they can be further scrutinized in later phases.&lt;/span></mainDescription>
+  </org.eclipse.epf.uma:ActivityDescription>
+</xmi:XMI>
