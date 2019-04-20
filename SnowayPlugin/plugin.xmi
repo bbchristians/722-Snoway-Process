@@ -9,8 +9,16 @@
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExoV1PEemG5bi738it6g" name="Content" guid="_w0ExoV1PEemG5bi738it6g">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0Exol1PEemG5bi738it6g" name="Categories" guid="_w0Exol1PEemG5bi738it6g">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0Exo11PEemG5bi738it6g" name="Domains" guid="_w0Exo11PEemG5bi738it6g"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExpF1PEemG5bi738it6g" name="Disciplines" guid="_w0ExpF1PEemG5bi738it6g"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExpV1PEemG5bi738it6g" name="RoleSets" guid="_w0ExpV1PEemG5bi738it6g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExpF1PEemG5bi738it6g" name="Disciplines" guid="_w0ExpF1PEemG5bi738it6g">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_OKL2UGCNEemNa4wjQ2tO5A" name="test_discipline" guid="_OKL2UGCNEemNa4wjQ2tO5A" presentationName="test_discipline">
+            <methodElementProperty xmi:id="_Pmli4GCNEemNa4wjQ2tO5A" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExpV1PEemG5bi738it6g" name="RoleSets" guid="_w0ExpV1PEemG5bi738it6g">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_eZ1xQGCMEemcTfvsET9yrA" name="stakeholder" guid="_eZ1xQGCMEemcTfvsET9yrA" presentationName="Stakeholder">
+            <methodElementProperty xmi:id="_sBf5wGCMEemcTfvsET9yrA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0Expl1PEemG5bi738it6g" name="WP Types" guid="_w0Expl1PEemG5bi738it6g"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0Exp11PEemG5bi738it6g" name="Tools" guid="_w0Exp11PEemG5bi738it6g"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExqF1PEemG5bi738it6g" name="StandardCategories" guid="_w0ExqF1PEemG5bi738it6g"/>
@@ -23,11 +31,20 @@
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExrF1PEemG5bi738it6g" name="CoreContent" guid="_w0ExrF1PEemG5bi738it6g">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6EXRQF1PEemG5bi738it6g" name="new_content_package" guid="_6EXRQF1PEemG5bi738it6g">
           <methodElementProperty xmi:id="_6EXRQV1PEemG5bi738it6g" name="pkg_loadCheck" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_7OWYIF1PEemG5bi738it6g" name="test_artifact_ben" guid="_7OWYIF1PEemG5bi738it6g" presentationName="Test Artifact Ben">
-            <methodElementProperty xmi:id="_937CcF1PEemG5bi738it6g" name="me_edited" value="true"/>
-          </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_F5ye0F8LEemGWvwDoSVWMA" name="define_vison" guid="_F5ye0F8LEemGWvwDoSVWMA" presentationName="Define Vison" briefDescription="Defines the scope for what the requirements for this iteration should cover">
             <methodElementProperty xmi:id="_gcIfoF8MEemGWvwDoSVWMA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_COfyQGPAEemmFZ-BlWtqCQ" name="project_authorization" guid="_COfyQGPAEemmFZ-BlWtqCQ" presentationName="Project Authorization" briefDescription="The initial project authorization that allows the start of the process lifecycle">
+            <methodElementProperty xmi:id="_Q29QcGPAEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_UhMGgGPAEemmFZ-BlWtqCQ" name="vision_document" guid="_UhMGgGPAEemmFZ-BlWtqCQ" presentationName="Vision Document" briefDescription="Scope of the requirements to be covered for this iteration for later analysis and implementation.">
+            <methodElementProperty xmi:id="_f1nBEGPAEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_pWZa0GPAEemmFZ-BlWtqCQ" name="requirements_gathering_plan" guid="_pWZa0GPAEemmFZ-BlWtqCQ" presentationName="Requirements Gathering Plan" briefDescription="Plan for eliciting the requirements from the stakeholders">
+            <methodElementProperty xmi:id="_-ebkgGPAEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__UlJYGPAEemmFZ-BlWtqCQ" name="requirements_transcript" guid="__UlJYGPAEemmFZ-BlWtqCQ" presentationName="Requirements Transcript" briefDescription="List of requirements obtained from the stakeholders. Requirements have not yet been formalized or analyzed at this stage.">
+            <methodElementProperty xmi:id="_HF9bAGPBEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>

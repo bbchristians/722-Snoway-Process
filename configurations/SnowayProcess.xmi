@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_ug1jsF1PEemG5bi738it6g" name="SnowayProcess" guid="_ug1jsF1PEemG5bi738it6g">
+  <methodElementProperty xmi:id="_SjZSQGCNEemNa4wjQ2tO5A" name="TouchedByConfigEditor" value="true"/>
+  <methodElementProperty xmi:id="_TjdoIGCNEemNa4wjQ2tO5A" name="me_edited" value="true"/>
   <methodPluginSelection href="uma://_w0ExoF1PEemG5bi738it6g#_w0ExoF1PEemG5bi738it6g"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_m3pPsF76EemGWvwDoSVWMA#_m3pPsF76EemGWvwDoSVWMA"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_w0ExoF1PEemG5bi738it6g#_w0Exrl1PEemG5bi738it6g"/>
+  <processViews xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_w0ExoF1PEemG5bi738it6g#_OKL2UGCNEemNa4wjQ2tO5A"/>
+  <addedCategory xsi:type="org.eclipse.epf.uma:RoleSet" href="uma://_w0ExoF1PEemG5bi738it6g#_eZ1xQGCMEemcTfvsET9yrA"/>
+  <addedCategory xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_w0ExoF1PEemG5bi738it6g#_OKL2UGCNEemNa4wjQ2tO5A"/>
 </org.eclipse.epf.uma:MethodConfiguration>
