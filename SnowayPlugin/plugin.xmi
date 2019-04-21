@@ -113,8 +113,26 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_yoLc4GQ8EemD98_zFpAUaw" name="requirements_change_request" guid="_yoLc4GQ8EemD98_zFpAUaw" presentationName="Requirements Change Request" briefDescription="A request to modify, add, or remove requirements based off of the customer's feedback on the iteration's build. Contains documented reasoning as to why the requirements changes are needed.">
             <methodElementProperty xmi:id="_5q-xQGQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_4BJFoGQ8EemD98_zFpAUaw" name="configuration_plan" guid="_4BJFoGQ8EemD98_zFpAUaw" presentationName="Configuration Plan">
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_4BJFoGQ8EemD98_zFpAUaw" name="configuration_plan" guid="_4BJFoGQ8EemD98_zFpAUaw" presentationName="Configuration Plan" briefDescription="The plan for how the system will be deployed in a scalable and final manner to begin user adoption.">
             <methodElementProperty xmi:id="_5q3cgGQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_XzBi4GQ9EemD98_zFpAUaw" name="stakeholder" guid="_XzBi4GQ9EemD98_zFpAUaw" presentationName="Stakeholder" briefDescription="Customers who will supply requirements for the product, and verify the satisfaction of those requirements through testing of released builds.">
+            <methodElementProperty xmi:id="_EAbFoGQ-EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_l-uMkGQ9EemD98_zFpAUaw" name="project_manager" guid="_l-uMkGQ9EemD98_zFpAUaw" presentationName="Project Manager" briefDescription="Controls operations of the project team including scheduling, planning, budgeting, and organizing the direction of the project.">
+            <methodElementProperty xmi:id="_EAWNIGQ-EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_t9KCwGQ9EemD98_zFpAUaw" name="system_architect" guid="_t9KCwGQ9EemD98_zFpAUaw" presentationName="System Architect" briefDescription="Determines the high level workings of the system. ">
+            <methodElementProperty xmi:id="_EAO4YGQ-EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_x0aoMGQ9EemD98_zFpAUaw" name="business_analyst" guid="_x0aoMGQ9EemD98_zFpAUaw" presentationName="Business Analyst" briefDescription="Work with the stakeholders to gather requirements that assist in the prioritization and formalization of them.">
+            <methodElementProperty xmi:id="_EAJ_4GQ-EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_6SNT4GQ9EemD98_zFpAUaw" name="developer" guid="_6SNT4GQ9EemD98_zFpAUaw" presentationName="Developer" briefDescription="Serves to implement the required functionality in the project.">
+            <methodElementProperty xmi:id="_EAAO4GQ-EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_9d7B8GQ9EemD98_zFpAUaw" name="qa_analyst" guid="_9d7B8GQ9EemD98_zFpAUaw" presentationName="QA Analyst" briefDescription="Identifies and addressed potential quality issues and assures that the project is of ample quality.">
+            <methodElementProperty xmi:id="_D_xlYGQ-EemD98_zFpAUaw" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>
