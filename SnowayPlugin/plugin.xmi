@@ -34,9 +34,6 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_7OWYIF1PEemG5bi738it6g" name="vision_document" guid="_7OWYIF1PEemG5bi738it6g" presentationName="Vision Document" briefDescription="Scope of the requirements to be covered for this iteration for later analysis and implementation.">
             <methodElementProperty xmi:id="_937CcF1PEemG5bi738it6g" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_F5ye0F8LEemGWvwDoSVWMA" name="define_vison" guid="_F5ye0F8LEemGWvwDoSVWMA" presentationName="Define Vison" briefDescription="Defines the scope for what the requirements for this iteration should cover">
-            <methodElementProperty xmi:id="_gcIfoF8MEemGWvwDoSVWMA" name="me_edited" value="true"/>
-          </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rvKTcGQ4EemD98_zFpAUaw" name="initial_authorization" guid="_rvKTcGQ4EemD98_zFpAUaw" presentationName="Initial Authorization" briefDescription="The initial project authorization that allows the start of the process lifecycle.">
             <methodElementProperty xmi:id="_7__doGQ4EemD98_zFpAUaw" name="me_edited" value="true"/>
           </contentElements>
@@ -141,6 +138,18 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_9d7B8GQ9EemD98_zFpAUaw" name="qa_analyst" guid="_9d7B8GQ9EemD98_zFpAUaw" presentationName="QA Analyst" briefDescription="Identifies and addressed potential quality issues and assures that the project is of ample quality.">
             <methodElementProperty xmi:id="_D_xlYGQ-EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YcRlUGRrEemmFZ-BlWtqCQ" name="define_scope" guid="_YcRlUGRrEemmFZ-BlWtqCQ" presentationName="Define Scope" briefDescription="Defines the scope of the requirements to be developed in this iteration." performedBy="_x0aoMGQ9EemD98_zFpAUaw _l-uMkGQ9EemD98_zFpAUaw" mandatoryInput="_rvKTcGQ4EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_qRvLAGRrEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_roVxkGRrEemmFZ-BlWtqCQ" name="plan_requirements_gathering" guid="_roVxkGRrEemmFZ-BlWtqCQ" presentationName="Plan Requirements Gathering" briefDescription="Creates a plan for gathering the requirements from stakeholders and setting up the meetings necessary to elicit them. Requirements gathered are not limited to the scope of the iteration but should plan for eliciting requirements related to it." performedBy="_x0aoMGQ9EemD98_zFpAUaw _9d7B8GQ9EemD98_zFpAUaw" mandatoryInput="_rvKTcGQ4EemD98_zFpAUaw _7OWYIF1PEemG5bi738it6g" output="_5L6zgGQ4EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_dDVlIGRtEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_B8ZXkGRuEemmFZ-BlWtqCQ" name="requirements_elicitation_meeting" guid="_B8ZXkGRuEemmFZ-BlWtqCQ" presentationName="Requirements Elicitation Meeting" briefDescription="A meeting scheduled with the stakeholders to elicit requirements. Requirements to be gathered are based off of a given plan for eliciting them." performedBy="_x0aoMGQ9EemD98_zFpAUaw" mandatoryInput="_5L6zgGQ4EemD98_zFpAUaw" output="__jbvMGQ4EemD98_zFpAUaw" additionallyPerformedBy="_XzBi4GQ9EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_LjJ2cGRuEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qIqxwGRvEemmFZ-BlWtqCQ" name="create_initial_requirements_document" guid="_qIqxwGRvEemmFZ-BlWtqCQ" presentationName="Create Initial Requirements Document" briefDescription="Creates the initial requirements document based off of a transcript of elicited requirements from the stakeholders and a vision document on the requirements for this iteration." performedBy="_x0aoMGQ9EemD98_zFpAUaw" mandatoryInput="__jbvMGQ4EemD98_zFpAUaw _7OWYIF1PEemG5bi738it6g" output="_Epx98GQ5EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_3qTx0GRvEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>

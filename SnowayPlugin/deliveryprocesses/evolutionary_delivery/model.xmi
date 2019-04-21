@@ -8,22 +8,111 @@
     <methodElementProperty xmi:id="_m3rr8F76EemGWvwDoSVWMA" name="pkg_loadCheck" value="true"/>
     <methodElementProperty xmi:id="_y88YIF77EemGWvwDoSVWMA" name="me_edited" value="true"/>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wtIHEF76EemGWvwDoSVWMA" name="software_concept" guid="_wtIHEF76EemGWvwDoSVWMA">
-      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_loT10GBaEemcTfvsET9yrA" name="Develop Vision" guid="_loT10GBaEemcTfvsET9yrA">
-        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_loT10WBaEemcTfvsET9yrA" name="Develop Vision" guid="_loT10WBaEemcTfvsET9yrA" presentationName="Develop Vision" superActivities="_wtIHEV76EemGWvwDoSVWMA" isRepeatable="true"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_loT10GBaEemcTfvsET9yrA" name="develop_vision" guid="_loT10GBaEemcTfvsET9yrA">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_loT10WBaEemcTfvsET9yrA" name="develop_vision" guid="_loT10WBaEemcTfvsET9yrA" presentationName="Develop Vision" prefix="Defines the scope of the set of requirements developed in this iteration. Produces a vision document that contains the scope." superActivities="_wtIHEV76EemGWvwDoSVWMA" breakdownElements="_88B8YGRqEemmFZ-BlWtqCQ _sBD-IGRsEemmFZ-BlWtqCQ _sBElMGRsEemmFZ-BlWtqCQ _sBElMmRsEemmFZ-BlWtqCQ _sBElNGRsEemmFZ-BlWtqCQ _sePpYGRsEemmFZ-BlWtqCQ _sePpYWRsEemmFZ-BlWtqCQ _seQQcWRsEemmFZ-BlWtqCQ _seQQc2RsEemmFZ-BlWtqCQ"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_88B8YGRqEemmFZ-BlWtqCQ" name="define_scope" guid="_88B8YGRqEemmFZ-BlWtqCQ" presentationName="Define Scope" briefDescription="Defines the scope for what the requirements for this iteration should cover" isPlanned="true" superActivities="_loT10WBaEemcTfvsET9yrA" isRepeatable="true" isSynchronizedWithSource="false">
+          <methodElementProperty xmi:id="_EPos4GRrEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <methodElementProperty xmi:id="_EPos4WRrEemmFZ-BlWtqCQ" name="descriptor_customization" value="3"/>
+          <methodElementProperty xmi:id="_EPos4mRrEemmFZ-BlWtqCQ" name="descriptor_localUsingInfo"/>
+          <methodElementProperty xmi:id="_UwM8MGRrEemmFZ-BlWtqCQ" name="wbe_GlobalPresentedAfter"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sBD-IGRsEemmFZ-BlWtqCQ" name="define_scope" guid="_sBD-IGRsEemmFZ-BlWtqCQ" presentationName="Define Scope" briefDescription="Defines the scope of the requirements to be developed in this iteration." isPlanned="true" superActivities="_loT10WBaEemcTfvsET9yrA" mandatoryInput="_sBElNGRsEemmFZ-BlWtqCQ" performedPrimarilyBy="_sBElMGRsEemmFZ-BlWtqCQ _sBElMmRsEemmFZ-BlWtqCQ">
+          <methodElementProperty xmi:id="_sBnXwGRsEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_w0ExoF1PEemG5bi738it6g#_YcRlUGRrEemmFZ-BlWtqCQ"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_sBElMGRsEemmFZ-BlWtqCQ" name="business_analyst" guid="_sBElMGRsEemmFZ-BlWtqCQ" presentationName="Business Analyst" briefDescription="Work with the stakeholders to gather requirements that assist in the prioritization and formalization of them." isPlanned="false" superActivities="_loT10WBaEemcTfvsET9yrA" modifies="_seQQc2RsEemmFZ-BlWtqCQ">
+          <methodElementProperty xmi:id="_sBElMWRsEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_sBsQQGRsEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_w0ExoF1PEemG5bi738it6g#_x0aoMGQ9EemD98_zFpAUaw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_sBElMmRsEemmFZ-BlWtqCQ" name="project_manager" guid="_sBElMmRsEemmFZ-BlWtqCQ" presentationName="Project Manager" briefDescription="Controls operations of the project team including scheduling, planning, budgeting, and organizing the direction of the project." isPlanned="false" superActivities="_loT10WBaEemcTfvsET9yrA">
+          <methodElementProperty xmi:id="_sBElM2RsEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_sBrCIGRsEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_w0ExoF1PEemG5bi738it6g#_l-uMkGQ9EemD98_zFpAUaw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_sBElNGRsEemmFZ-BlWtqCQ" name="initial_authorization" guid="_sBElNGRsEemmFZ-BlWtqCQ" presentationName="Initial Authorization" briefDescription="The initial project authorization that allows the start of the process lifecycle." isPlanned="false" superActivities="_loT10WBaEemcTfvsET9yrA">
+          <methodElementProperty xmi:id="_sBFMQGRsEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_sBp0AGRsEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <WorkProduct href="uma://_w0ExoF1PEemG5bi738it6g#_rvKTcGQ4EemD98_zFpAUaw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sePpYGRsEemmFZ-BlWtqCQ" name="plan_requirements_gathering" guid="_sePpYGRsEemmFZ-BlWtqCQ" presentationName="Plan Requirements Gathering" briefDescription="Creates a plan for gathering the requirements from stakeholders and setting up the meetings necessary to elicit them. Requirements gathered are not limited to the scope of the iteration but should plan for eliciting requirements related to it." isPlanned="true" superActivities="_loT10WBaEemcTfvsET9yrA" linkToPredecessor="_fhUqgGRtEemmFZ-BlWtqCQ" mandatoryInput="_sBElNGRsEemmFZ-BlWtqCQ _seQQcWRsEemmFZ-BlWtqCQ" output="_seQQc2RsEemmFZ-BlWtqCQ" performedPrimarilyBy="_sePpYWRsEemmFZ-BlWtqCQ _sBElMGRsEemmFZ-BlWtqCQ">
+          <methodElementProperty xmi:id="_seaBcGRsEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_w0ExoF1PEemG5bi738it6g#_roVxkGRrEemmFZ-BlWtqCQ"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_sePpYWRsEemmFZ-BlWtqCQ" name="qa_analyst" guid="_sePpYWRsEemmFZ-BlWtqCQ" presentationName="QA Analyst" briefDescription="Identifies and addressed potential quality issues and assures that the project is of ample quality." isPlanned="false" superActivities="_loT10WBaEemcTfvsET9yrA" modifies="_seQQc2RsEemmFZ-BlWtqCQ">
+          <methodElementProperty xmi:id="_seQQcGRsEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_sedEwGRsEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_w0ExoF1PEemG5bi738it6g#_9d7B8GQ9EemD98_zFpAUaw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_seQQcWRsEemmFZ-BlWtqCQ" name="vision_document" guid="_seQQcWRsEemmFZ-BlWtqCQ" presentationName="Vision Document" briefDescription="Scope of the requirements to be covered for this iteration for later analysis and implementation." isPlanned="false" superActivities="_loT10WBaEemcTfvsET9yrA">
+          <methodElementProperty xmi:id="_seQQcmRsEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_see58GRsEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <WorkProduct href="uma://_w0ExoF1PEemG5bi738it6g#_7OWYIF1PEemG5bi738it6g"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_seQQc2RsEemmFZ-BlWtqCQ" name="requirements_gathering_plan" guid="_seQQc2RsEemmFZ-BlWtqCQ" presentationName="Requirements Gathering Plan" briefDescription="Plan for eliciting the requirements from the stakeholders." isPlanned="false" superActivities="_loT10WBaEemcTfvsET9yrA">
+          <methodElementProperty xmi:id="_seQQdGRsEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_sebPkGRsEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <WorkProduct href="uma://_w0ExoF1PEemG5bi738it6g#_5L6zgGQ4EemD98_zFpAUaw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_fhUqgGRtEemmFZ-BlWtqCQ" guid="_fhUqgGRtEemmFZ-BlWtqCQ" linkType="finishToFinish" pred="_sBD-IGRsEemmFZ-BlWtqCQ"/>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_u1rH0GBbEemcTfvsET9yrA" name="Gather Requirements" guid="_u1rH0GBbEemcTfvsET9yrA">
-        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_u1rH0WBbEemcTfvsET9yrA" name="Gather Requirements" guid="_u1rH0WBbEemcTfvsET9yrA" presentationName="Gather Requirements" superActivities="_wtIHEV76EemGWvwDoSVWMA" isRepeatable="true" linkToPredecessor="_UYC9AGBcEemcTfvsET9yrA"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_u1rH0GBbEemcTfvsET9yrA" name="gather_requirements" guid="_u1rH0GBbEemcTfvsET9yrA">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_u1rH0WBbEemcTfvsET9yrA" name="gather_requirements" guid="_u1rH0WBbEemcTfvsET9yrA" presentationName="Gather Requirements" briefDescription="Gathers requirements from the stakeholders based on the given plan. Transcribes the elicited requirements into a document." superActivities="_wtIHEV76EemGWvwDoSVWMA" linkToPredecessor="_UYC9AGBcEemcTfvsET9yrA" breakdownElements="_TUH4YGRuEemmFZ-BlWtqCQ _TUH4YWRuEemmFZ-BlWtqCQ _TUH4Y2RuEemmFZ-BlWtqCQ _TUIfcGRuEemmFZ-BlWtqCQ _TUIfcmRuEemmFZ-BlWtqCQ"/>
         <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_UYC9AGBcEemcTfvsET9yrA" guid="_UYC9AGBcEemcTfvsET9yrA" pred="_loT10WBaEemcTfvsET9yrA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_TUH4YGRuEemmFZ-BlWtqCQ" name="requirements_elicitation_meeting" guid="_TUH4YGRuEemmFZ-BlWtqCQ" presentationName="Requirements Elicitation Meeting" briefDescription="A meeting scheduled with the stakeholders to elicit requirements. Requirements to be gathered are based off of a given plan for eliciting them." superActivities="_u1rH0WBbEemcTfvsET9yrA" additionallyPerformedBy="_TUH4Y2RuEemmFZ-BlWtqCQ" mandatoryInput="_TUIfcGRuEemmFZ-BlWtqCQ" output="_TUIfcmRuEemmFZ-BlWtqCQ" performedPrimarilyBy="_TUH4YWRuEemmFZ-BlWtqCQ">
+          <methodElementProperty xmi:id="_TUK7sGRuEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_w0ExoF1PEemG5bi738it6g#_B8ZXkGRuEemmFZ-BlWtqCQ"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_TUH4YWRuEemmFZ-BlWtqCQ" name="business_analyst" guid="_TUH4YWRuEemmFZ-BlWtqCQ" presentationName="Business Analyst" briefDescription="Work with the stakeholders to gather requirements that assist in the prioritization and formalization of them." isPlanned="false" superActivities="_u1rH0WBbEemcTfvsET9yrA" modifies="_TUIfcmRuEemmFZ-BlWtqCQ">
+          <methodElementProperty xmi:id="_TUH4YmRuEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_TUMJ0GRuEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_w0ExoF1PEemG5bi738it6g#_x0aoMGQ9EemD98_zFpAUaw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_TUH4Y2RuEemmFZ-BlWtqCQ" name="stakeholder" guid="_TUH4Y2RuEemmFZ-BlWtqCQ" presentationName="Stakeholder" briefDescription="Customers who will supply requirements for the product, and verify the satisfaction of those requirements through testing of released builds." isPlanned="false" superActivities="_u1rH0WBbEemcTfvsET9yrA">
+          <methodElementProperty xmi:id="_TUH4ZGRuEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_TUMw4GRuEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_w0ExoF1PEemG5bi738it6g#_XzBi4GQ9EemD98_zFpAUaw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TUIfcGRuEemmFZ-BlWtqCQ" name="requirements_gathering_plan" guid="_TUIfcGRuEemmFZ-BlWtqCQ" presentationName="Requirements Gathering Plan" briefDescription="Plan for eliciting the requirements from the stakeholders." isPlanned="false" superActivities="_u1rH0WBbEemcTfvsET9yrA">
+          <methodElementProperty xmi:id="_TUIfcWRuEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_TUOmEGRuEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <WorkProduct href="uma://_w0ExoF1PEemG5bi738it6g#_5L6zgGQ4EemD98_zFpAUaw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TUIfcmRuEemmFZ-BlWtqCQ" name="requirements_transcript" guid="_TUIfcmRuEemmFZ-BlWtqCQ" presentationName="Requirements Transcript" briefDescription="List of requirements obtained from the stakeholders. Requirements have not yet been formalized or analyzed at this stage." isPlanned="false" superActivities="_u1rH0WBbEemcTfvsET9yrA">
+          <methodElementProperty xmi:id="_TUIfc2RuEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_TUNX8GRuEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <WorkProduct href="uma://_w0ExoF1PEemG5bi738it6g#__jbvMGQ4EemD98_zFpAUaw"/>
+        </processElements>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_59tMMGBbEemcTfvsET9yrA" name="Detail Requirements" guid="_59tMMGBbEemcTfvsET9yrA">
-        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_59tMMWBbEemcTfvsET9yrA" name="Detail Requirements" guid="_59tMMWBbEemcTfvsET9yrA" presentationName="Detail Requirements" superActivities="_wtIHEV76EemGWvwDoSVWMA" isRepeatable="true" linkToPredecessor="_v8l3IGBcEemcTfvsET9yrA"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_59tMMGBbEemcTfvsET9yrA" name="generate_requirements" guid="_59tMMGBbEemcTfvsET9yrA">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_59tMMWBbEemcTfvsET9yrA" name="generate_requirements" guid="_59tMMWBbEemcTfvsET9yrA" presentationName="Generate Requirements" briefDescription="Generates the set of requirements that will be further developed and analyzed during this iteration. Requirements generated will have descriptions that will be consistently used in communications with stakeholders and within the team." superActivities="_wtIHEV76EemGWvwDoSVWMA" isRepeatable="true" linkToPredecessor="_v8l3IGBcEemcTfvsET9yrA" breakdownElements="_5HRfEGRvEemmFZ-BlWtqCQ _5HSGIGRvEemmFZ-BlWtqCQ _5HSGImRvEemmFZ-BlWtqCQ _5HSGJGRvEemmFZ-BlWtqCQ _5HSGJmRvEemmFZ-BlWtqCQ"/>
         <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_v8l3IGBcEemcTfvsET9yrA" guid="_v8l3IGBcEemcTfvsET9yrA" pred="_u1rH0WBbEemcTfvsET9yrA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_5HRfEGRvEemmFZ-BlWtqCQ" name="create_initial_requirements_document" guid="_5HRfEGRvEemmFZ-BlWtqCQ" presentationName="Create Initial Requirements Document" briefDescription="Creates the initial requirements document based off of a transcript of elicited requirements from the stakeholders and a vision document on the requirements for this iteration." superActivities="_59tMMWBbEemcTfvsET9yrA" mandatoryInput="_5HSGImRvEemmFZ-BlWtqCQ _5HSGJGRvEemmFZ-BlWtqCQ" output="_5HSGJmRvEemmFZ-BlWtqCQ" performedPrimarilyBy="_5HSGIGRvEemmFZ-BlWtqCQ">
+          <methodElementProperty xmi:id="_5HUiYGRvEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_w0ExoF1PEemG5bi738it6g#_qIqxwGRvEemmFZ-BlWtqCQ"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_5HSGIGRvEemmFZ-BlWtqCQ" name="business_analyst" guid="_5HSGIGRvEemmFZ-BlWtqCQ" presentationName="Business Analyst" briefDescription="Work with the stakeholders to gather requirements that assist in the prioritization and formalization of them." isPlanned="false" superActivities="_59tMMWBbEemcTfvsET9yrA" modifies="_5HSGJmRvEemmFZ-BlWtqCQ">
+          <methodElementProperty xmi:id="_5HSGIWRvEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_5HXlsGRvEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_w0ExoF1PEemG5bi738it6g#_x0aoMGQ9EemD98_zFpAUaw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_5HSGImRvEemmFZ-BlWtqCQ" name="requirements_transcript" guid="_5HSGImRvEemmFZ-BlWtqCQ" presentationName="Requirements Transcript" briefDescription="List of requirements obtained from the stakeholders. Requirements have not yet been formalized or analyzed at this stage." isPlanned="false" superActivities="_59tMMWBbEemcTfvsET9yrA">
+          <methodElementProperty xmi:id="_5HSGI2RvEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_5HVwgGRvEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <WorkProduct href="uma://_w0ExoF1PEemG5bi738it6g#__jbvMGQ4EemD98_zFpAUaw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_5HSGJGRvEemmFZ-BlWtqCQ" name="vision_document" guid="_5HSGJGRvEemmFZ-BlWtqCQ" presentationName="Vision Document" briefDescription="Scope of the requirements to be covered for this iteration for later analysis and implementation." isPlanned="false" superActivities="_59tMMWBbEemcTfvsET9yrA">
+          <methodElementProperty xmi:id="_5HSGJWRvEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_5HYMwGRvEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <WorkProduct href="uma://_w0ExoF1PEemG5bi738it6g#_7OWYIF1PEemG5bi738it6g"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_5HSGJmRvEemmFZ-BlWtqCQ" name="initial_requirements_document" guid="_5HSGJmRvEemmFZ-BlWtqCQ" presentationName="Initial Requirements Document" briefDescription="Project verification document. Can show back to stakeholders for requirements approval. Should have requirements descriptions for consistency." isPlanned="false" superActivities="_59tMMWBbEemcTfvsET9yrA">
+          <methodElementProperty xmi:id="_5HSGJ2RvEemmFZ-BlWtqCQ" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_5HW-oGRvEemmFZ-BlWtqCQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <WorkProduct href="uma://_w0ExoF1PEemG5bi738it6g#_Epx98GQ5EemD98_zFpAUaw"/>
+        </processElements>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_-ANYUGBbEemcTfvsET9yrA" name="Risk Management" guid="_-ANYUGBbEemcTfvsET9yrA">
-        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_-ANYUWBbEemcTfvsET9yrA" name="Risk Management" guid="_-ANYUWBbEemcTfvsET9yrA" presentationName="Risk Management" superActivities="_wtIHEV76EemGWvwDoSVWMA" isRepeatable="true" linkToPredecessor="_wo_DEGBcEemcTfvsET9yrA"/>
-        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wo_DEGBcEemcTfvsET9yrA" guid="_wo_DEGBcEemcTfvsET9yrA" pred="_59tMMWBbEemcTfvsET9yrA"/>
-      </childPackages>
-      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_wtIHEV76EemGWvwDoSVWMA" name="software_concept" guid="_wtIHEV76EemGWvwDoSVWMA" presentationName="Software Concept" briefDescription="The initial elicitation, formulation, and evaluation of project requirements for a given iteration. Performs risk identification on the requirements so that they can be further scrutinized in later phases." superActivities="_m3pPsV76EemGWvwDoSVWMA" isRepeatable="true" breakdownElements="_loT10WBaEemcTfvsET9yrA _u1rH0WBbEemcTfvsET9yrA _59tMMWBbEemcTfvsET9yrA _-ANYUWBbEemcTfvsET9yrA">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_wtIHEV76EemGWvwDoSVWMA" name="software_concept" guid="_wtIHEV76EemGWvwDoSVWMA" presentationName="Software Concept" briefDescription="The initial elicitation, formulation, and evaluation of project requirements for a given iteration. Performs risk identification on the requirements so that they can be further scrutinized in later phases." superActivities="_m3pPsV76EemGWvwDoSVWMA" isRepeatable="true" breakdownElements="_loT10WBaEemcTfvsET9yrA _u1rH0WBbEemcTfvsET9yrA _59tMMWBbEemcTfvsET9yrA">
         <presentation xmi:id="-HnAmCXk9qgn96PzKRdWLDg" href="uma://-R-tGigpQzHrHEZkhfE3IIg#-HnAmCXk9qgn96PzKRdWLDg"/>
       </processElements>
     </childPackages>
