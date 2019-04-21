@@ -31,20 +31,116 @@
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExrF1PEemG5bi738it6g" name="CoreContent" guid="_w0ExrF1PEemG5bi738it6g">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6EXRQF1PEemG5bi738it6g" name="new_content_package" guid="_6EXRQF1PEemG5bi738it6g">
           <methodElementProperty xmi:id="_6EXRQV1PEemG5bi738it6g" name="pkg_loadCheck" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_7OWYIF1PEemG5bi738it6g" name="vision_document" guid="_7OWYIF1PEemG5bi738it6g" presentationName="Vision Document" briefDescription="Scope of the requirements to be covered for this iteration for later analysis and implementation.">
+            <methodElementProperty xmi:id="_937CcF1PEemG5bi738it6g" name="me_edited" value="true"/>
+          </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_F5ye0F8LEemGWvwDoSVWMA" name="define_vison" guid="_F5ye0F8LEemGWvwDoSVWMA" presentationName="Define Vison" briefDescription="Defines the scope for what the requirements for this iteration should cover">
             <methodElementProperty xmi:id="_gcIfoF8MEemGWvwDoSVWMA" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_COfyQGPAEemmFZ-BlWtqCQ" name="project_authorization" guid="_COfyQGPAEemmFZ-BlWtqCQ" presentationName="Project Authorization" briefDescription="The initial project authorization that allows the start of the process lifecycle">
-            <methodElementProperty xmi:id="_Q29QcGPAEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rvKTcGQ4EemD98_zFpAUaw" name="initial_authorization" guid="_rvKTcGQ4EemD98_zFpAUaw" presentationName="Initial Authorization" briefDescription="The initial project authorization that allows the start of the process lifecycle.">
+            <methodElementProperty xmi:id="_7__doGQ4EemD98_zFpAUaw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_UhMGgGPAEemmFZ-BlWtqCQ" name="vision_document" guid="_UhMGgGPAEemmFZ-BlWtqCQ" presentationName="Vision Document" briefDescription="Scope of the requirements to be covered for this iteration for later analysis and implementation.">
-            <methodElementProperty xmi:id="_f1nBEGPAEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_5L6zgGQ4EemD98_zFpAUaw" name="requirements_gathering_plan" guid="_5L6zgGQ4EemD98_zFpAUaw" presentationName="Requirements Gathering Plan" briefDescription="Plan for eliciting the requirements from the stakeholders.">
+            <methodElementProperty xmi:id="_7_wNEGQ4EemD98_zFpAUaw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_pWZa0GPAEemmFZ-BlWtqCQ" name="requirements_gathering_plan" guid="_pWZa0GPAEemmFZ-BlWtqCQ" presentationName="Requirements Gathering Plan" briefDescription="Plan for eliciting the requirements from the stakeholders">
-            <methodElementProperty xmi:id="_-ebkgGPAEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__jbvMGQ4EemD98_zFpAUaw" name="requirements_transcript" guid="__jbvMGQ4EemD98_zFpAUaw" presentationName="Requirements Transcript" briefDescription="List of requirements obtained from the stakeholders. Requirements have not yet been formalized or analyzed at this stage.">
+            <methodElementProperty xmi:id="_GcmxAGQ6EemD98_zFpAUaw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__UlJYGPAEemmFZ-BlWtqCQ" name="requirements_transcript" guid="__UlJYGPAEemmFZ-BlWtqCQ" presentationName="Requirements Transcript" briefDescription="List of requirements obtained from the stakeholders. Requirements have not yet been formalized or analyzed at this stage.">
-            <methodElementProperty xmi:id="_HF9bAGPBEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Epx98GQ5EemD98_zFpAUaw" name="initial_requirements_document" guid="_Epx98GQ5EemD98_zFpAUaw" presentationName="Initial Requirements Document" briefDescription="Project verification document. Can show back to stakeholders for requirements approval. Should have requirements descriptions for consistency.">
+            <methodElementProperty xmi:id="_GcTPAGQ6EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IFt5UGQ5EemD98_zFpAUaw" name="project_specification" guid="_IFt5UGQ5EemD98_zFpAUaw" presentationName="Project Specification" briefDescription="An unordered list of functional and non-functional requirements of the system. Contains detailed descriptions for each user story that are sufficient to begin implementation.">
+            <methodElementProperty xmi:id="_GcfcQGQ6EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_dg8EwGQ5EemD98_zFpAUaw" name="risk_chart" guid="_dg8EwGQ5EemD98_zFpAUaw" presentationName="Risk Chart" briefDescription="A categorized and prioritized breakdown of project risks. Contains descriptions of each risk, mitigation practices, and potential impacts.">
+            <methodElementProperty xmi:id="_GcajwGQ6EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_njLlwGQ5EemD98_zFpAUaw" name="prioritized_requirements" guid="_njLlwGQ5EemD98_zFpAUaw" presentationName="Prioritized Requirements" briefDescription="A prioritized list of requirements based on risks and based on customer value. Includes prioritization and description (from Project Specification).">
+            <methodElementProperty xmi:id="_Gb9QwGQ6EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tneqgGQ5EemD98_zFpAUaw" name="approval_to_begin_development" guid="_tneqgGQ5EemD98_zFpAUaw" presentationName="Approval to Begin Development" briefDescription="Formal approval that indicates sufficient representation of the project by the supplied architecture and requirements.">
+            <methodElementProperty xmi:id="_F7MGAGQ6EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_562goGQ5EemD98_zFpAUaw" name="formal_requirements_document" guid="_562goGQ5EemD98_zFpAUaw" presentationName="Formal Requirements Document" briefDescription="Contains a list of requirements that have been formally documented and &#xA;approved.">
+            <methodElementProperty xmi:id="_GcJeAGQ6EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_P2qQoGQ6EemD98_zFpAUaw" name="architecture_outline_document" guid="_P2qQoGQ6EemD98_zFpAUaw" presentationName="Architecture Outline Document" briefDescription="A description of the system's architecture including all local and remote elements and their interactions.">
+            <methodElementProperty xmi:id="_PqzwgGQ7EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Xc1-4GQ6EemD98_zFpAUaw" name="technology_recommendations" guid="_Xc1-4GQ6EemD98_zFpAUaw" presentationName="Technology Recommendations" briefDescription="A well thought through decision on the technology stack that the project will utilize for implementation.">
+            <methodElementProperty xmi:id="_PqsbwGQ7EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ZsTgEGQ6EemD98_zFpAUaw" name="test_plan" guid="_ZsTgEGQ6EemD98_zFpAUaw" presentationName="Test Plan" briefDescription="A document that details which tests will be performed, and how much time should be invested into testing. Also details important test cases in which to emphasize.">
+            <methodElementProperty xmi:id="_PqnjQGQ7EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_p7VTcGQ6EemD98_zFpAUaw" name="reuse_reccomendation" guid="_p7VTcGQ6EemD98_zFpAUaw" presentationName="Reuse Reccomendation" briefDescription="A conglomorate of recommendation from the team based on prior experiences, which details potential areas of reuse from other projects. Includes discrete technologies, as well as applications containing potentially similar implementations.">
+            <methodElementProperty xmi:id="_PqgOgGQ7EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_yy80YGQ6EemD98_zFpAUaw" name="system_architecture" guid="_yy80YGQ6EemD98_zFpAUaw" presentationName="System Architecture" briefDescription="An implementation of the system architecture. Contains source code, builds, and deployment to test environments.">
+            <methodElementProperty xmi:id="_PqY5wGQ7EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_7_0zoGQ6EemD98_zFpAUaw" name="partially_functional_build" guid="_7_0zoGQ6EemD98_zFpAUaw" presentationName="Partially Functional Build" briefDescription="A build of the product that does not contain all functionality of the final product. Contains source code, builds, tests, and code documentation.">
+            <methodElementProperty xmi:id="_PqRlAGQ7EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_F09FsGQ7EemD98_zFpAUaw" name="approval_from_architect" guid="_F09FsGQ7EemD98_zFpAUaw" presentationName="Approval From Architect" briefDescription="Approval given from the project's architect that signifies sufficient architecture is in place, and that the system design will be capable of satisfying the remainder of the requirements.">
+            <methodElementProperty xmi:id="_PqMsgGQ7EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_OO_SwGQ7EemD98_zFpAUaw" name="iteration_plan" guid="_OO_SwGQ7EemD98_zFpAUaw" presentationName="Iteration Plan" briefDescription="A plan for which user stories will be implemented in this iteration of development. Also details testing priorities and risks which will be mitigated.">
+            <methodElementProperty xmi:id="_PqAfQGQ7EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_Wa6yYGQ7EemD98_zFpAUaw" name="implemented_version" guid="_Wa6yYGQ7EemD98_zFpAUaw" presentationName="Implemented Version" briefDescription="A functional version of the application which can be deployed and delivered to the customer. Contains source code, buids, tests, and source code documentation.">
+            <methodElementProperty xmi:id="_5sSY0GQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_hVwvUGQ7EemD98_zFpAUaw" name="code_documentation" guid="_hVwvUGQ7EemD98_zFpAUaw" presentationName="Code Documentation" briefDescription="Documentation external to the source code documentation that includes API intent and specifications as well as details about the shortcomings of the implementation and future refactoring actions noted by the developers.">
+            <methodElementProperty xmi:id="_5rypkGQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_op5EQGQ7EemD98_zFpAUaw" name="final_functional_version" guid="_op5EQGQ7EemD98_zFpAUaw" presentationName="Final Functional Version" briefDescription="A completed version of the application which can be deployed and delivered to the customer. Contains source code, builds, unit tests, and source code documentation.">
+            <methodElementProperty xmi:id="_5rr74GQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_2IYpsGQ7EemD98_zFpAUaw" name="test_cases" guid="_2IYpsGQ7EemD98_zFpAUaw" presentationName="Test Cases" briefDescription="A series of test case implementations which serve to validate that the application satisfies the associated requirements. Contains unit test source code and documentation.">
+            <methodElementProperty xmi:id="_5rmcUGQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_9Zb1cGQ7EemD98_zFpAUaw" name="test_execution_results" guid="_9Zb1cGQ7EemD98_zFpAUaw" presentationName="Test Execution Results" briefDescription="Results from the test case execution which either verify the satisfaction of requirements, or determine that there is a problem with the build.">
+            <methodElementProperty xmi:id="_5rfuoGQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_HTH3YGQ8EemD98_zFpAUaw" name="user_acceptance_test_plan" guid="_HTH3YGQ8EemD98_zFpAUaw" presentationName="User Acceptance Test Plan" briefDescription="A plan of how to deliver the product to the customer, and which features to elicit feedback on. Feedback will be documented if not noted in this document as well.">
+            <methodElementProperty xmi:id="_5rYZ4GQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_MQfwUGQ8EemD98_zFpAUaw" name="user_documentation" guid="_MQfwUGQ8EemD98_zFpAUaw" presentationName="User Documentation" briefDescription="Documentation that teaches the user how to use the system. This documentation is created incrementally, and not handed to the user until the Deliver Final Version activity.">
+            <methodElementProperty xmi:id="_RhjaQGQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_TOMiQGQ8EemD98_zFpAUaw" name="user_acceptance_test_feedback" guid="_TOMiQGQ8EemD98_zFpAUaw" presentationName="User Acceptance Test Feedback" briefDescription="Record the experience of the user while using the version of the product. &#xD;&#xA;Document any feedback the user supplies (bugs, change req.) Sufficiently &#xD;&#xA;describes which requirements were met.">
+            <methodElementProperty xmi:id="_5rThYGQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_geTtcGQ8EemD98_zFpAUaw" name="approval_for_implemented_version" guid="_geTtcGQ8EemD98_zFpAUaw" presentationName="Approval for Implemented Version" briefDescription="A determination on whether the version supplied to the user satisfied the requirements that it claims to have implemented.">
+            <methodElementProperty xmi:id="_5rMMoGQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_oeq2QGQ8EemD98_zFpAUaw" name="bug_report" guid="_oeq2QGQ8EemD98_zFpAUaw" presentationName="Bug Report" briefDescription="A report from the customer on any bugs which were present in the build.">
+            <methodElementProperty xmi:id="_5rE34GQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_yoLc4GQ8EemD98_zFpAUaw" name="requirements_change_request" guid="_yoLc4GQ8EemD98_zFpAUaw" presentationName="Requirements Change Request" briefDescription="A request to modify, add, or remove requirements based off of the customer's feedback on the iteration's build. Contains documented reasoning as to why the requirements changes are needed.">
+            <methodElementProperty xmi:id="_5q-xQGQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_4BJFoGQ8EemD98_zFpAUaw" name="configuration_plan" guid="_4BJFoGQ8EemD98_zFpAUaw" presentationName="Configuration Plan" briefDescription="The plan for how the system will be deployed in a scalable and final manner to begin user adoption.">
+            <methodElementProperty xmi:id="_5q3cgGQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_XzBi4GQ9EemD98_zFpAUaw" name="stakeholder" guid="_XzBi4GQ9EemD98_zFpAUaw" presentationName="Stakeholder" briefDescription="Customers who will supply requirements for the product, and verify the satisfaction of those requirements through testing of released builds.">
+            <methodElementProperty xmi:id="_EAbFoGQ-EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_l-uMkGQ9EemD98_zFpAUaw" name="project_manager" guid="_l-uMkGQ9EemD98_zFpAUaw" presentationName="Project Manager" briefDescription="Controls operations of the project team including scheduling, planning, budgeting, and organizing the direction of the project.">
+            <methodElementProperty xmi:id="_EAWNIGQ-EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_t9KCwGQ9EemD98_zFpAUaw" name="system_architect" guid="_t9KCwGQ9EemD98_zFpAUaw" presentationName="System Architect" briefDescription="Determines the high level workings of the system. ">
+            <methodElementProperty xmi:id="_EAO4YGQ-EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_x0aoMGQ9EemD98_zFpAUaw" name="business_analyst" guid="_x0aoMGQ9EemD98_zFpAUaw" presentationName="Business Analyst" briefDescription="Work with the stakeholders to gather requirements that assist in the prioritization and formalization of them.">
+            <methodElementProperty xmi:id="_EAJ_4GQ-EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_6SNT4GQ9EemD98_zFpAUaw" name="developer" guid="_6SNT4GQ9EemD98_zFpAUaw" presentationName="Developer" briefDescription="Serves to implement the required functionality in the project.">
+            <methodElementProperty xmi:id="_EAAO4GQ-EemD98_zFpAUaw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_9d7B8GQ9EemD98_zFpAUaw" name="qa_analyst" guid="_9d7B8GQ9EemD98_zFpAUaw" presentationName="QA Analyst" briefDescription="Identifies and addressed potential quality issues and assures that the project is of ample quality.">
+            <methodElementProperty xmi:id="_D_xlYGQ-EemD98_zFpAUaw" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>
