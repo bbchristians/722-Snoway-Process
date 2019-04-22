@@ -12,6 +12,7 @@
     <resourceDescriptors xmi:id="_a5pRwGSOEemgtOW9CUqu0A" id="-AfTmH_HRAN3H-Ka-cEvsHw" uri="tasks/implement_the_version.xmi"/>
     <resourceDescriptors xmi:id="_dco9gGSPEemgtOW9CUqu0A" id="-OowWcd_4Oc72x_7_sTzQbQ" uri="workproducts/user_documentation.xmi"/>
     <resourceDescriptors xmi:id="_wCyj0GSQEemgtOW9CUqu0A" id="-JJFfIVdsRkXN2xdGEs8ayA" uri="tasks/execute_user_acceptance_tests.xmi"/>
+    <resourceDescriptors xmi:id="_Qgy_cGUOEemmFZ-BlWtqCQ" id="-13PEuZPquiiazN5ypQ-KHQ" uri="tasks/define_vision.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_w0ExoF1PEemG5bi738it6g" name="SnowayPlugin" guid="_w0ExoF1PEemG5bi738it6g">
     <methodElementProperty xmi:id="_w0Exs11PEemG5bi738it6g" name="plugin_synFree" value="true"/>
@@ -253,6 +254,16 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jpEYoGSREemgtOW9CUqu0A" name="distribution_of_software" guid="_jpEYoGSREemgtOW9CUqu0A" presentationName="Distribution of Software" briefDescription="This task is performed to ensure that the software is properly disturbed on all intended systems and servers to ensure availability in bad weather conditions" performedBy="_6SNT4GQ9EemD98_zFpAUaw _l-uMkGQ9EemD98_zFpAUaw" mandatoryInput="_op5EQGQ7EemD98_zFpAUaw" output="_4BJFoGQ8EemD98_zFpAUaw _MQfwUGQ8EemD98_zFpAUaw">
             <methodElementProperty xmi:id="_3XymAGSREemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_w_vzgGUNEemmFZ-BlWtqCQ" name="define_vision" guid="_w_vzgGUNEemmFZ-BlWtqCQ" presentationName="Define Vision" briefDescription="Defines the scope of the set of requirements developed in this iteration. Produces a vision document that contains the scope." performedBy="_x0aoMGQ9EemD98_zFpAUaw _l-uMkGQ9EemD98_zFpAUaw" mandatoryInput="_rvKTcGQ4EemD98_zFpAUaw" output="_5L6zgGQ4EemD98_zFpAUaw _7OWYIF1PEemG5bi738it6g">
+            <methodElementProperty xmi:id="_QgpOcGUOEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-13PEuZPquiiazN5ypQ-KHQ" href="uma://-13PEuZPquiiazN5ypQ-KHQ#-13PEuZPquiiazN5ypQ-KHQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_dE6AQGUOEemmFZ-BlWtqCQ" name="gather_requirements" guid="_dE6AQGUOEemmFZ-BlWtqCQ" presentationName="Gather Requirements" briefDescription="Gathers requirements from the stakeholders based on the given plan. Transcribes the elicited requirements into a document." performedBy="_x0aoMGQ9EemD98_zFpAUaw" mandatoryInput="_5L6zgGQ4EemD98_zFpAUaw" output="__jbvMGQ4EemD98_zFpAUaw" additionallyPerformedBy="_XzBi4GQ9EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_sDITEGUOEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0zHiAGUOEemmFZ-BlWtqCQ" name="generate_requirements" guid="_0zHiAGUOEemmFZ-BlWtqCQ" presentationName="Generate Requirements" briefDescription="Generates the set of requirements that will be further developed and analyzed during this iteration. Requirements generated will have descriptions that will be consistently used in communications with stakeholders and within the team.&#xD;&#xA;" performedBy="_x0aoMGQ9EemD98_zFpAUaw" mandatoryInput="__jbvMGQ4EemD98_zFpAUaw _7OWYIF1PEemG5bi738it6g" output="_Epx98GQ5EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_-T7w8GUOEemmFZ-BlWtqCQ" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>
