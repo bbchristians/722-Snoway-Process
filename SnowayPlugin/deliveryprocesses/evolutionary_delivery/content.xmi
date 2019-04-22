@@ -7,4 +7,15 @@ style=&quot;FONT-SIZE: 11pt; TEXT-DECORATION: none; FONT-FAMILY: Arial; FONT-VAR
 The initial elicitation, formulation, and evaluation of project requirements for a given iteration. Performs risk&#xD;
 identification on the requirements so that they can be further scrutinized in later phases.&lt;/span></mainDescription>
   </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6KVFZMFIiyOGzEdIu13G4A" name="user_documentation,_pOLNTWUQEemmFZ-BlWtqCQ" guid="-6KVFZMFIiyOGzEdIu13G4A">
+    <keyConsiderations>&lt;b id=&quot;docs-internal-guid-3b7bd94e-7fff-705a-118d-fa4a0cd50222&quot; style=&quot;FONT-WEIGHT: normal&quot;>&lt;span&#xD;
+style=&quot;FONT-SIZE: 11pt; TEXT-DECORATION: none; FONT-FAMILY: Arial; FONT-VARIANT: normal; VERTICAL-ALIGN: baseline; WHITE-SPACE: pre-wrap; FONT-WEIGHT: 400; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: transparent&quot;>&#xD;
+This documentation is created incrementally, and not handed to the user until the Deliver Final Version&#xD;
+activity.&lt;/span>&lt;/b></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-N9RcfaaGUeUrfX-5YW6SJA" name="execute_user_acceptance_tests,_vPUQUGUQEemmFZ-BlWtqCQ" guid="-N9RcfaaGUeUrfX-5YW6SJA">
+    <keyConsiderations>This stage ends when approval is received.&lt;br />&#xD;
+Stakeholders are free to do field testing but with the understanding that it is not a complete product. The goal of this&#xD;
+activity is to obtain feedback.&lt;br /></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
 </xmi:XMI>

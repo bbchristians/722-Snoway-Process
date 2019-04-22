@@ -197,7 +197,6 @@
             <methodElementProperty xmi:id="_-5QtAGSJEemgtOW9CUqu0A" name="me_edited" value="true"/>
             <presentation xmi:id="-K9NRfQIxrqDZp3YWuCwN4w" href="uma://-K9NRfQIxrqDZp3YWuCwN4w#-K9NRfQIxrqDZp3YWuCwN4w"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HQyOEGSJEemgtOW9CUqu0A" name="new_task" guid="_HQyOEGSJEemgtOW9CUqu0A" presentationName="New Task"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_uuyNAGSKEemgtOW9CUqu0A" name="design_architecture" guid="_uuyNAGSKEemgtOW9CUqu0A" presentationName="Design Architecture" briefDescription="This task is performed to identify design pattern trade-offs and make selections based off risk mitigation." performedBy="_l-uMkGQ9EemD98_zFpAUaw _t9KCwGQ9EemD98_zFpAUaw" mandatoryInput="_tneqgGQ5EemD98_zFpAUaw _562goGQ5EemD98_zFpAUaw" output="_P2qQoGQ6EemD98_zFpAUaw">
             <methodElementProperty xmi:id="_JMcFoGSNEemgtOW9CUqu0A" name="me_edited" value="true"/>
             <presentation xmi:id="-dHFpxF8ecK40Ssy5QGPbxQ" href="uma://-dHFpxF8ecK40Ssy5QGPbxQ#-dHFpxF8ecK40Ssy5QGPbxQ"/>
