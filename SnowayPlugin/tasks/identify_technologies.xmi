@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Xv1FQ8mnP6BOhsuFaWej5Q" name=",_BSxsoGSLEemgtOW9CUqu0A" guid="-Xv1FQ8mnP6BOhsuFaWej5Q" changeDate="2019-04-21T19:14:30.413-0400">
+  <keyConsiderations>&lt;b id=&quot;docs-internal-guid-52be1ecf-7fff-e8d6-5e82-8e7291aa5df9&quot; style=&quot;FONT-WEIGHT: normal&quot;>&lt;span&#xD;
+style=&quot;FONT-SIZE: 11pt; TEXT-DECORATION: none; FONT-FAMILY: Arial; FONT-VARIANT: normal; VERTICAL-ALIGN: baseline; WHITE-SPACE: pre-wrap; FONT-WEIGHT: 400; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: transparent&quot;>&#xD;
+Architect should take into consideration the capacity of the&amp;nbsp;project's developers when selecting&#xD;
+technologies&lt;/span>&lt;/b></keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

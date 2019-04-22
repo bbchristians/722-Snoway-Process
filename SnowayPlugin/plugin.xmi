@@ -5,6 +5,13 @@
     <resourceDescriptors xmi:id="_nGoG4F76EemGWvwDoSVWMA" id="_m3pPsF76EemGWvwDoSVWMA" uri="deliveryprocesses/evolutionary_delivery/model.xmi"/>
     <resourceDescriptors xmi:id="_-3hnoGSJEemgtOW9CUqu0A" id="-dtf2oiKgbx1ooEE0oshvJg" uri="tasks/requirements_analysis.xmi"/>
     <resourceDescriptors xmi:id="_-4Lu8GSJEemgtOW9CUqu0A" id="-K9NRfQIxrqDZp3YWuCwN4w" uri="tasks/requirements_validation.xmi"/>
+    <resourceDescriptors xmi:id="_JGQlIGSNEemgtOW9CUqu0A" id="-dHFpxF8ecK40Ssy5QGPbxQ" uri="tasks/design_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_JGVdoGSNEemgtOW9CUqu0A" id="-Xv1FQ8mnP6BOhsuFaWej5Q" uri="tasks/identify_technologies.xmi"/>
+    <resourceDescriptors xmi:id="_JGZvEGSNEemgtOW9CUqu0A" id="-CUwoG_iRVSKpvwEopUXGwg" uri="tasks/implement_risky_requirements.xmi"/>
+    <resourceDescriptors xmi:id="_JGenkGSNEemgtOW9CUqu0A" id="-MO-PIKQAR4nI4OuOi-CydQ" uri="tasks/verify_architectures_adherence_to_requirements.xmi"/>
+    <resourceDescriptors xmi:id="_a5pRwGSOEemgtOW9CUqu0A" id="-AfTmH_HRAN3H-Ka-cEvsHw" uri="tasks/implement_the_version.xmi"/>
+    <resourceDescriptors xmi:id="_dco9gGSPEemgtOW9CUqu0A" id="-OowWcd_4Oc72x_7_sTzQbQ" uri="workproducts/user_documentation.xmi"/>
+    <resourceDescriptors xmi:id="_wCyj0GSQEemgtOW9CUqu0A" id="-JJFfIVdsRkXN2xdGEs8ayA" uri="tasks/execute_user_acceptance_tests.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_w0ExoF1PEemG5bi738it6g" name="SnowayPlugin" guid="_w0ExoF1PEemG5bi738it6g">
     <methodElementProperty xmi:id="_w0Exs11PEemG5bi738it6g" name="plugin_synFree" value="true"/>
@@ -17,6 +24,24 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_ONFR0GSJEemgtOW9CUqu0A" name="preliminary_requirements_analysis" guid="_ONFR0GSJEemgtOW9CUqu0A" presentationName="Preliminary Requirements Analysis" briefDescription="This stage of the Evolutionary delivery has as its main goal to produce a prioritized set of requirements approved by the stakeholders and described in a way that the whole team can understand in order to start the construction of the architecture and thus development." tasks="_AaYMYGSIEemgtOW9CUqu0A _KAQW8GSHEemgtOW9CUqu0A _ULrMoGSIEemgtOW9CUqu0A _2HOFEGSIEemgtOW9CUqu0A">
             <methodElementProperty xmi:id="_-3OssGSJEemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_tZYOYGSMEemgtOW9CUqu0A" name="design_of_architecture_and_system_core" guid="_tZYOYGSMEemgtOW9CUqu0A" presentationName="Design of Architecture and System Core" briefDescription="The goal of this stage on the Evolutionary Delivery is to build the architecture and system core containing the implementation of the identified risky requirements. The rest of the requirements are implemented in later stages using the output of this stage as base. The test plan of the project is also conceived on this stage." tasks="_uuyNAGSKEemgtOW9CUqu0A _Vv54IGSLEemgtOW9CUqu0A _fyKAMGSLEemgtOW9CUqu0A _BSxsoGSLEemgtOW9CUqu0A _nZ5NoGSLEemgtOW9CUqu0A _zuUzsGSLEemgtOW9CUqu0A _gDmgEGSMEemgtOW9CUqu0A _NzRjUGSMEemgtOW9CUqu0A">
+            <methodElementProperty xmi:id="_JGJ3cGSNEemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_bh3vYGSOEemgtOW9CUqu0A" name="develop_a_version" guid="_bh3vYGSOEemgtOW9CUqu0A" presentationName="Develop a Version" briefDescription="The purpose of this stage on the Evolutionary Delivery is to provide a functional build to the stakeholders as a way of showcasing the progress of the project" tasks="_OtpEYGSNEemgtOW9CUqu0A _jGCg4GSNEemgtOW9CUqu0A _AScJoGSOEemgtOW9CUqu0A">
+            <methodElementProperty xmi:id="_mparkGSOEemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_ejf34GSPEemgtOW9CUqu0A" name="deliver_the_version" guid="_ejf34GSPEemgtOW9CUqu0A" presentationName="Deliver the Version" briefDescription="The purpose of this stage of the Evolutionary Delivery model is to provide a working implementation of the system to the stakeholders to allow the execution of user acceptance tests and obtaintion of feedback" tasks="_062w4GSOEemgtOW9CUqu0A _K5P60GSPEemgtOW9CUqu0A">
+            <methodElementProperty xmi:id="_uQkNsGSPEemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_fMZOcGSQEemgtOW9CUqu0A" name="elicit_customer_feedback" guid="_fMZOcGSQEemgtOW9CUqu0A" presentationName="Elicit customer feedback" briefDescription="The purpose of this stage is to clean and analyze the feedback obtained from the stakeholders after they perform the acceptance testing. Their feedback is gathered as bug report when something is not working as it should or as requirement change request when something needs to be changed at the requirement level or to add new requirements." tasks="_BiyFQGSQEemgtOW9CUqu0A">
+            <methodElementProperty xmi:id="_wDMzgGSQEemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_Yo4osGSREemgtOW9CUqu0A" name="incorporate_customer_feedback" guid="_Yo4osGSREemgtOW9CUqu0A" presentationName="Incorporate customer feedback" briefDescription="The purpose of this stage is to handle the obtained feedback from the customer and identify their impact and update previous documents based on the analysis" tasks="_xgB94GSQEemgtOW9CUqu0A _OdOF8GSREemgtOW9CUqu0A">
+            <methodElementProperty xmi:id="_intpUGSREemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_vQ-28GSREemgtOW9CUqu0A" name="deliver_final_version" guid="_vQ-28GSREemgtOW9CUqu0A" presentationName="Deliver Final Version" briefDescription="The purpose of this stage is to deliver the final version of the system to the stakeholders proving user documentation and configuration plan" tasks="_jpEYoGSREemgtOW9CUqu0A">
+            <methodElementProperty xmi:id="_3XfrEGSREemgtOW9CUqu0A" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExpV1PEemG5bi738it6g" name="RoleSets" guid="_w0ExpV1PEemG5bi738it6g">
@@ -110,6 +135,7 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_MQfwUGQ8EemD98_zFpAUaw" name="user_documentation" guid="_MQfwUGQ8EemD98_zFpAUaw" presentationName="User Documentation" briefDescription="Documentation that teaches the user how to use the system. This documentation is created incrementally, and not handed to the user until the Deliver Final Version activity.">
             <methodElementProperty xmi:id="_RhjaQGQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
+            <presentation xmi:id="-OowWcd_4Oc72x_7_sTzQbQ" href="uma://-OowWcd_4Oc72x_7_sTzQbQ#-OowWcd_4Oc72x_7_sTzQbQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_TOMiQGQ8EemD98_zFpAUaw" name="user_acceptance_test_feedback" guid="_TOMiQGQ8EemD98_zFpAUaw" presentationName="User Acceptance Test Feedback" briefDescription="Record the experience of the user while using the version of the product. &#xD;&#xA;Document any feedback the user supplies (bugs, change req.) Sufficiently &#xD;&#xA;describes which requirements were met.">
             <methodElementProperty xmi:id="_5rThYGQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
@@ -171,6 +197,63 @@
             <presentation xmi:id="-K9NRfQIxrqDZp3YWuCwN4w" href="uma://-K9NRfQIxrqDZp3YWuCwN4w#-K9NRfQIxrqDZp3YWuCwN4w"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HQyOEGSJEemgtOW9CUqu0A" name="new_task" guid="_HQyOEGSJEemgtOW9CUqu0A" presentationName="New Task"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_uuyNAGSKEemgtOW9CUqu0A" name="design_architecture" guid="_uuyNAGSKEemgtOW9CUqu0A" presentationName="Design Architecture" briefDescription="This task is performed to identify design pattern trade-offs and make selections based off risk mitigation." performedBy="_l-uMkGQ9EemD98_zFpAUaw _t9KCwGQ9EemD98_zFpAUaw" mandatoryInput="_tneqgGQ5EemD98_zFpAUaw _562goGQ5EemD98_zFpAUaw" output="_P2qQoGQ6EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_JMcFoGSNEemgtOW9CUqu0A" name="me_edited" value="true"/>
+            <presentation xmi:id="-dHFpxF8ecK40Ssy5QGPbxQ" href="uma://-dHFpxF8ecK40Ssy5QGPbxQ#-dHFpxF8ecK40Ssy5QGPbxQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BSxsoGSLEemgtOW9CUqu0A" name="identify_technologies" guid="_BSxsoGSLEemgtOW9CUqu0A" presentationName="Identify Technologies" briefDescription="This activity is performed with the goal of identifying the technologies that would work for the project and integrate well with external systems" performedBy="_t9KCwGQ9EemD98_zFpAUaw" mandatoryInput="_P2qQoGQ6EemD98_zFpAUaw" output="_Xc1-4GQ6EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_JLdOMGSNEemgtOW9CUqu0A" name="me_edited" value="true"/>
+            <presentation xmi:id="-Xv1FQ8mnP6BOhsuFaWej5Q" href="uma://-Xv1FQ8mnP6BOhsuFaWej5Q#-Xv1FQ8mnP6BOhsuFaWej5Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Vv54IGSLEemgtOW9CUqu0A" name="develop_test_plan" guid="_Vv54IGSLEemgtOW9CUqu0A" presentationName="Develop Test Plan" briefDescription="Start identification of testing scenarios and description of the overall way of addressing testing for the project." performedBy="_l-uMkGQ9EemD98_zFpAUaw _9d7B8GQ9EemD98_zFpAUaw _t9KCwGQ9EemD98_zFpAUaw" mandatoryInput="_P2qQoGQ6EemD98_zFpAUaw _562goGQ5EemD98_zFpAUaw _Xc1-4GQ6EemD98_zFpAUaw" output="_ZsTgEGQ6EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_JK5NgGSNEemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_fyKAMGSLEemgtOW9CUqu0A" name="identify_opportunities_for_reuse_and_integration" guid="_fyKAMGSLEemgtOW9CUqu0A" presentationName="Identify Opportunities for Reuse and Integration" briefDescription="Investigate existing systems and external services for opportunities to reuse. Assure that our architecture integrates efficiently and safely with the existing systems." performedBy="_6SNT4GQ9EemD98_zFpAUaw _l-uMkGQ9EemD98_zFpAUaw _t9KCwGQ9EemD98_zFpAUaw" mandatoryInput="_P2qQoGQ6EemD98_zFpAUaw _Xc1-4GQ6EemD98_zFpAUaw" output="_p7VTcGQ6EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_JKF8QGSNEemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nZ5NoGSLEemgtOW9CUqu0A" name="implement_architecture" guid="_nZ5NoGSLEemgtOW9CUqu0A" presentationName="Implement Architecture" briefDescription="Establish systems that are integral to product development such as CI, establish service availability, version control. This task is Iterative/Incremental&#xD;&#xA;" performedBy="_6SNT4GQ9EemD98_zFpAUaw _t9KCwGQ9EemD98_zFpAUaw" mandatoryInput="_P2qQoGQ6EemD98_zFpAUaw _p7VTcGQ6EemD98_zFpAUaw _Xc1-4GQ6EemD98_zFpAUaw" output="_yy80YGQ6EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_JJ2rsGSNEemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_zuUzsGSLEemgtOW9CUqu0A" name="implement_risky_requirements" guid="_zuUzsGSLEemgtOW9CUqu0A" presentationName="Implement Risky Requirements" briefDescription="Follow the patterns in the ‘Develop a Version’ section (defined on the development lifecycle model) to create smaller versions of functionality for the purpose of presenting and eliciting domain expert feedback in areas that pose significant risk to the project at the architecture level. This task is Iterative and incremental" performedBy="_6SNT4GQ9EemD98_zFpAUaw" mandatoryInput="_P2qQoGQ6EemD98_zFpAUaw _562goGQ5EemD98_zFpAUaw _p7VTcGQ6EemD98_zFpAUaw _Xc1-4GQ6EemD98_zFpAUaw _yy80YGQ6EemD98_zFpAUaw" output="_7_0zoGQ6EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_JJCzYGSNEemgtOW9CUqu0A" name="me_edited" value="true"/>
+            <presentation xmi:id="-CUwoG_iRVSKpvwEopUXGwg" href="uma://-CUwoG_iRVSKpvwEopUXGwg#-CUwoG_iRVSKpvwEopUXGwg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_NzRjUGSMEemgtOW9CUqu0A" name="verify_architectures_adherence_to_requirements" guid="_NzRjUGSMEemgtOW9CUqu0A" presentationName="Verify architecture’s adherence to requirements" briefDescription="This task is performed to assure that the design does not exclude any requirements" performedBy="_x0aoMGQ9EemD98_zFpAUaw _t9KCwGQ9EemD98_zFpAUaw" mandatoryInput="_562goGQ5EemD98_zFpAUaw _7_0zoGQ6EemD98_zFpAUaw _yy80YGQ6EemD98_zFpAUaw" output="_F09FsGQ7EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_JIGYMGSNEemgtOW9CUqu0A" name="me_edited" value="true"/>
+            <presentation xmi:id="-MO-PIKQAR4nI4OuOi-CydQ" href="uma://-MO-PIKQAR4nI4OuOi-CydQ#-MO-PIKQAR4nI4OuOi-CydQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_gDmgEGSMEemgtOW9CUqu0A" name="validate_preliminary_builds_with_stakeholders" guid="_gDmgEGSMEemgtOW9CUqu0A" presentationName="Validate Preliminary Builds with Stakeholders" briefDescription="Deliver builds that contain risky or unclear requirements in order to address whether they have been implemented correctly as desired by the customer, and that other potentially risky features are implemented properly.&#xD;&#xA;" performedBy="_l-uMkGQ9EemD98_zFpAUaw _XzBi4GQ9EemD98_zFpAUaw" mandatoryInput="_7_0zoGQ6EemD98_zFpAUaw" output="_7_0zoGQ6EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_JG43QGSNEemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_OtpEYGSNEemgtOW9CUqu0A" name="identify_prioritized_requirements_to_address_in_iteration" guid="_OtpEYGSNEemgtOW9CUqu0A" presentationName="Identify prioritized requirements to address in iteration" briefDescription="This task is performed to identify the set of requirements that are to be addressed on the iteration based on their priority." performedBy="_l-uMkGQ9EemD98_zFpAUaw" mandatoryInput="_562goGQ5EemD98_zFpAUaw _7_0zoGQ6EemD98_zFpAUaw" output="_OO_SwGQ7EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_mppVEGSOEemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jGCg4GSNEemgtOW9CUqu0A" name="implement_the_version" guid="_jGCg4GSNEemgtOW9CUqu0A" presentationName="Implement the version" briefDescription="The purpose of this task is to add functionality to the existing version until it satisfied all the new requirements. For this the responsible roles should perform the following: Design solution, Code Implementation / Modify Code, Unit / Integration testing, Unit Regression Testing, Code Reviews, Create Build " performedBy="_6SNT4GQ9EemD98_zFpAUaw" mandatoryInput="_562goGQ5EemD98_zFpAUaw _OO_SwGQ7EemD98_zFpAUaw _7_0zoGQ6EemD98_zFpAUaw" output="_hVwvUGQ7EemD98_zFpAUaw _op5EQGQ7EemD98_zFpAUaw _Wa6yYGQ7EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_mqZjAGSOEemgtOW9CUqu0A" name="me_edited" value="true"/>
+            <presentation xmi:id="-AfTmH_HRAN3H-Ka-cEvsHw" href="uma://-AfTmH_HRAN3H-Ka-cEvsHw#-AfTmH_HRAN3H-Ka-cEvsHw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_AScJoGSOEemgtOW9CUqu0A" name="test_to_assure_that_functionality_is_conforming_to_requirements" guid="_AScJoGSOEemgtOW9CUqu0A" presentationName="Test to assure that functionality is conforming to requirements" briefDescription="The purpose of this activity is to test the implemented version. In order to correctly perform this activity, the QA Analyst should: Create Functional Test Cases, Execute Functional Test Cases, Automate test cases (if feasible), Perform Functional Regression Testing" performedBy="_9d7B8GQ9EemD98_zFpAUaw" mandatoryInput="_562goGQ5EemD98_zFpAUaw _Wa6yYGQ7EemD98_zFpAUaw _OO_SwGQ7EemD98_zFpAUaw" output="_2IYpsGQ7EemD98_zFpAUaw _9Zb1cGQ7EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_mp5MsGSOEemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_062w4GSOEemgtOW9CUqu0A" name="develop_user_acceptance_test_plan" guid="_062w4GSOEemgtOW9CUqu0A" presentationName="Develop User Acceptance Test Plan" briefDescription="This task is performed to develop the user acceptance test plan that describes how the user should test the implemented version" performedBy="_l-uMkGQ9EemD98_zFpAUaw _9d7B8GQ9EemD98_zFpAUaw" mandatoryInput="_562goGQ5EemD98_zFpAUaw _Wa6yYGQ7EemD98_zFpAUaw _OO_SwGQ7EemD98_zFpAUaw" output="_HTH3YGQ8EemD98_zFpAUaw _MQfwUGQ8EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_uRUboGSPEemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_K5P60GSPEemgtOW9CUqu0A" name="execute_user_acceptance_tests" guid="_K5P60GSPEemgtOW9CUqu0A" presentationName="Execute User Acceptance Tests" briefDescription="In this task, the implemented version of the product is delivered to the customer in a way that allows them to easily install and operate the system. Should include reasonable and understandable usage instructions&#xD;&#xA;" performedBy="_l-uMkGQ9EemD98_zFpAUaw _XzBi4GQ9EemD98_zFpAUaw" mandatoryInput="_Wa6yYGQ7EemD98_zFpAUaw _HTH3YGQ8EemD98_zFpAUaw" output="_TOMiQGQ8EemD98_zFpAUaw _geTtcGQ8EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_uQy3MGSPEemgtOW9CUqu0A" name="me_edited" value="true"/>
+            <presentation xmi:id="-JJFfIVdsRkXN2xdGEs8ayA" href="uma://-JJFfIVdsRkXN2xdGEs8ayA#-JJFfIVdsRkXN2xdGEs8ayA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BiyFQGSQEemgtOW9CUqu0A" name="clean_and_analyze_feedback" guid="_BiyFQGSQEemgtOW9CUqu0A" presentationName="Clean and Analyze feedback" briefDescription="This task is performed to take the feedback from the user and remove unneeded content, and reformat it to a concise and digestible format." performedBy="_6SNT4GQ9EemD98_zFpAUaw _l-uMkGQ9EemD98_zFpAUaw _x0aoMGQ9EemD98_zFpAUaw" mandatoryInput="_TOMiQGQ8EemD98_zFpAUaw" output="_oeq2QGQ8EemD98_zFpAUaw _yoLc4GQ8EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_wCqoAGSQEemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xgB94GSQEemgtOW9CUqu0A" name="impact_analysis_of_new_requirements" guid="_xgB94GSQEemgtOW9CUqu0A" presentationName="Impact Analysis of New Requirements" briefDescription="The purpose of this task is to analyze if the customer feedback impacts the implementation of previous requirements&#xD;&#xA;" performedBy="_x0aoMGQ9EemD98_zFpAUaw _t9KCwGQ9EemD98_zFpAUaw" mandatoryInput="_562goGQ5EemD98_zFpAUaw _yoLc4GQ8EemD98_zFpAUaw _dg8EwGQ5EemD98_zFpAUaw" output="_562goGQ5EemD98_zFpAUaw _dg8EwGQ5EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_ioMKcGSREemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_OdOF8GSREemgtOW9CUqu0A" name="manage_requirements_change" guid="_OdOF8GSREemgtOW9CUqu0A" presentationName="Manage requirements change" briefDescription="The purpose of this task is to update affected requirements based on the obtained feedback and re-prioritize the requirements" performedBy="_x0aoMGQ9EemD98_zFpAUaw _l-uMkGQ9EemD98_zFpAUaw _t9KCwGQ9EemD98_zFpAUaw" mandatoryInput="_562goGQ5EemD98_zFpAUaw _njLlwGQ5EemD98_zFpAUaw" output="_562goGQ5EemD98_zFpAUaw _njLlwGQ5EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_in7rwGSREemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jpEYoGSREemgtOW9CUqu0A" name="distribution_of_software" guid="_jpEYoGSREemgtOW9CUqu0A" presentationName="Distribution of Software" briefDescription="This task is performed to ensure that the software is properly disturbed on all intended systems and servers to ensure availability in bad weather conditions" performedBy="_6SNT4GQ9EemD98_zFpAUaw _l-uMkGQ9EemD98_zFpAUaw" mandatoryInput="_op5EQGQ7EemD98_zFpAUaw" output="_4BJFoGQ8EemD98_zFpAUaw _MQfwUGQ8EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_3XymAGSREemgtOW9CUqu0A" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_w0ExrV1PEemG5bi738it6g" name="CapabilityPatterns" guid="_w0ExrV1PEemG5bi738it6g"/>

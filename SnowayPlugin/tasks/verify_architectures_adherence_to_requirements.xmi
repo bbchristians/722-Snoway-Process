@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-MO-PIKQAR4nI4OuOi-CydQ" name=",_NzRjUGSMEemgtOW9CUqu0A" guid="-MO-PIKQAR4nI4OuOi-CydQ" changeDate="2019-04-21T19:22:41.939-0400">
+  <keyConsiderations>May require reworking the requirements.</keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

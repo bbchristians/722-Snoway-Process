@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-JJFfIVdsRkXN2xdGEs8ayA" name=",_K5P60GSPEemgtOW9CUqu0A" guid="-JJFfIVdsRkXN2xdGEs8ayA" changeDate="2019-04-21T19:48:40.212-0400">
+  <keyConsiderations>This stage ends when approval is received.&lt;br />&#xD;
+Stakeholders are free to do field testing but with the understanding that it is not a complete product. The goal of this&#xD;
+activity is to obtain feedback.&lt;br /></keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>
