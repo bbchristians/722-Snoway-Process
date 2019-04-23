@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-dtf2oiKgbx1ooEE0oshvJg" name=",_KAQW8GSHEemgtOW9CUqu0A" guid="-dtf2oiKgbx1ooEE0oshvJg" changeDate="2019-04-21T18:48:08.555-0400">
+  <alternatives>&lt;p>&#xD;
+    This activity is strongly related with the Gathering and Generation of requirements, and if issues arise with the&#xD;
+    identified set of requirements, the team should go back to those previous activities.&#xD;
+&lt;/p></alternatives>
+</org.eclipse.epf.uma:TaskDescription>

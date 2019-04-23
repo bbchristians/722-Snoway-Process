@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:DeliverableDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-OowWcd_4Oc72x_7_sTzQbQ" name="user_documentation,_MQfwUGQ8EemD98_zFpAUaw" guid="-OowWcd_4Oc72x_7_sTzQbQ" changeDate="2019-04-21T19:42:45.692-0400">
+  <keyConsiderations>&lt;b id=&quot;docs-internal-guid-3b7bd94e-7fff-705a-118d-fa4a0cd50222&quot; style=&quot;FONT-WEIGHT: normal&quot;>&lt;span&#xD;
+style=&quot;FONT-SIZE: 11pt; TEXT-DECORATION: none; FONT-FAMILY: Arial; FONT-VARIANT: normal; VERTICAL-ALIGN: baseline; WHITE-SPACE: pre-wrap; FONT-WEIGHT: 400; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: transparent&quot;>&#xD;
+This documentation is created incrementally, and not handed to the user until the Deliver Final Version&#xD;
+activity.&lt;/span>&lt;/b></keyConsiderations>
+</org.eclipse.epf.uma:DeliverableDescription>

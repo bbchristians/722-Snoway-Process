@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-K9NRfQIxrqDZp3YWuCwN4w" name=",_2HOFEGSIEemgtOW9CUqu0A" guid="-K9NRfQIxrqDZp3YWuCwN4w" changeDate="2019-04-21T18:58:21.656-0400">
+  <keyConsiderations>May require backtreading to Software conceptualization&lt;br />&#xD;
+&lt;b id=&quot;docs-internal-guid-6a6b08ab-7fff-3d6f-d432-3600db25874a&quot; style=&quot;FONT-WEIGHT: normal&quot;>&lt;span&#xD;
+style=&quot;FONT-SIZE: 11pt; TEXT-DECORATION: none; FONT-FAMILY: Arial; FONT-VARIANT: normal; VERTICAL-ALIGN: baseline; WHITE-SPACE: pre-wrap; FONT-WEIGHT: 400; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: transparent&quot;>&#xD;
+Completed when we get a greenlight from the customer&lt;/span>&lt;/b></keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

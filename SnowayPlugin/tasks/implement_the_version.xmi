@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-AfTmH_HRAN3H-Ka-cEvsHw" name=",_jGCg4GSNEemgtOW9CUqu0A" guid="-AfTmH_HRAN3H-Ka-cEvsHw" changeDate="2019-04-21T19:34:06.384-0400">
+  <keyConsiderations>The repository containing the partially functional build generate don previous activities is available.&lt;br />&#xD;
+The Final Functional Version is not produced until all the requirements and customer feedback is implemented.</keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>
