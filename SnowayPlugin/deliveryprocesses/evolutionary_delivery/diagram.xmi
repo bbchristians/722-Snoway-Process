@@ -385,7 +385,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_0O03TGUQEemmFZ-BlWtqCQ"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_0O03TWUQEemmFZ-BlWtqCQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_0O03TmUQEemmFZ-BlWtqCQ" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0O03T2UQEemmFZ-BlWtqCQ" x="300" y="120"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0O03T2UQEemmFZ-BlWtqCQ" x="225" y="120"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_0O03UWUQEemmFZ-BlWtqCQ" type="1009" element="_0O03RmUQEemmFZ-BlWtqCQ">
       <children xmi:type="notation:Node" xmi:id="_0O03V2UQEemmFZ-BlWtqCQ" type="4008"/>
@@ -403,7 +403,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_1eAAI2UQEemmFZ-BlWtqCQ"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_1eAAJGUQEemmFZ-BlWtqCQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_1eAAJWUQEemmFZ-BlWtqCQ" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1eAAJmUQEemmFZ-BlWtqCQ" x="196" y="138"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1eAAJmUQEemmFZ-BlWtqCQ" x="121" y="138"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_13VtMGUQEemmFZ-BlWtqCQ" type="1001" element="_13MjQGUQEemmFZ-BlWtqCQ">
       <children xmi:type="notation:Node" xmi:id="_13VtNmUQEemmFZ-BlWtqCQ" type="4001">
@@ -447,5 +447,208 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6i6rhWUQEemmFZ-BlWtqCQ" points="[78, 5, -90, 0]$[166, 3, -2, -2]"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6i6riGUQEemmFZ-BlWtqCQ" id="(0.08333333333333333,0.20833333333333334)"/>
     </edges>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_B5eOMGYVEemU3f_qccYIfA" name="Preliminary Software">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B5eOMWYVEemU3f_qccYIfA" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B5eOMmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_zmYnQWYNEemD98_zFpAUaw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B5eOM2YVEemU3f_qccYIfA" key="type" value="Phase"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_B5sQoGYVEemU3f_qccYIfA" name="Requirements Analysis" outgoing="_B5s3vGYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B5sQoWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B5sQomYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_G6ofIWYOEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B5sQo2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_B5s3sGYVEemU3f_qccYIfA" name="Identify Risks" outgoing="_B5tewGYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B5s3sWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B5s3smYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_G6ofIGYOEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B5s3s2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_B5s3tGYVEemU3f_qccYIfA" name="Requirements Prioritization" outgoing="_B5tewWYVEemU3f_qccYIfA" incoming="_B5s3vGYVEemU3f_qccYIfA _B5tewGYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B5s3tWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B5s3tmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_G6ofImYOEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B5s3t2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_B5s3uGYVEemU3f_qccYIfA" name="Requirements Validation" incoming="_B5tewWYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B5s3uWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B5s3umYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_G6ofI2YOEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B5s3u2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_B5s3vGYVEemU3f_qccYIfA" source="_B5sQoGYVEemU3f_qccYIfA" target="_B5s3tGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_B5tewGYVEemU3f_qccYIfA" source="_B5s3sGYVEemU3f_qccYIfA" target="_B5s3tGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_B5tewWYVEemU3f_qccYIfA" source="_B5s3tGYVEemU3f_qccYIfA" target="_B5s3uGYVEemU3f_qccYIfA"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_B5eONGYVEemU3f_qccYIfA" type="AD" element="_B5eOMGYVEemU3f_qccYIfA" name="Preliminary Software" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_B5eONWYVEemU3f_qccYIfA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_B5eONmYVEemU3f_qccYIfA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_B5eON2YVEemU3f_qccYIfA"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_DoetsGYVEemU3f_qccYIfA" name="Design Architecture and System Core">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DoetsWYVEemU3f_qccYIfA" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoetsmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_ASoa8WYPEemD98_zFpAUaw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Doets2YVEemU3f_qccYIfA" key="type" value="Phase"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_DoriAGYVEemU3f_qccYIfA" name="Design Architecture" outgoing="_DosJEGYVEemU3f_qccYIfA _DosJE2YVEemU3f_qccYIfA _DosJF2YVEemU3f_qccYIfA _DosJGWYVEemU3f_qccYIfA _DoswJGYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DoriAWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriAmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_Iks-0GYPEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriA2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_DoriBGYVEemU3f_qccYIfA" name="Identify Technologies" outgoing="_DosJFGYVEemU3f_qccYIfA _DosJGGYVEemU3f_qccYIfA _DoswIGYVEemU3f_qccYIfA _DoswJWYVEemU3f_qccYIfA" incoming="_DosJEGYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DoriBWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriBmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_Iks-02YPEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriB2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_DoriCGYVEemU3f_qccYIfA" name="Develop Test Plan" incoming="_DoswJGYVEemU3f_qccYIfA _DoswJWYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DoriCWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriCmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_Iks-0WYPEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriC2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_DoriDGYVEemU3f_qccYIfA" name="Identify Opportunities for Reuse and Integration" outgoing="_DosJFWYVEemU3f_qccYIfA _DoswIWYVEemU3f_qccYIfA" incoming="_DosJF2YVEemU3f_qccYIfA _DosJGGYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DoriDWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriDmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_Iks-0mYPEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriD2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_DoriEGYVEemU3f_qccYIfA" name="Implement Architecture" outgoing="_DosJEWYVEemU3f_qccYIfA _DosJFmYVEemU3f_qccYIfA" incoming="_DosJGWYVEemU3f_qccYIfA _DoswIGYVEemU3f_qccYIfA _DoswIWYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DoriEWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriEmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_Iks-1GYPEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriE2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_DoriFGYVEemU3f_qccYIfA" name="Implement Risky Requirements" outgoing="_DosJEmYVEemU3f_qccYIfA _DoswImYVEemU3f_qccYIfA" incoming="_DosJE2YVEemU3f_qccYIfA _DosJFGYVEemU3f_qccYIfA _DosJFWYVEemU3f_qccYIfA _DosJFmYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DoriFWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriFmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_Iks-1WYPEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriF2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_DoriGGYVEemU3f_qccYIfA" name="Verify architecture’s adherence to requirements" outgoing="_DoswI2YVEemU3f_qccYIfA" incoming="_DosJEWYVEemU3f_qccYIfA _DosJEmYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DoriGWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriGmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_Iks-12YPEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriG2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_DoriHGYVEemU3f_qccYIfA" name="Validate Preliminary Builds with Stakeholders" incoming="_DoswImYVEemU3f_qccYIfA _DoswI2YVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DoriHWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriHmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_Iks-1mYPEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DoriH2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DosJEGYVEemU3f_qccYIfA" source="_DoriAGYVEemU3f_qccYIfA" target="_DoriBGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DosJEWYVEemU3f_qccYIfA" source="_DoriEGYVEemU3f_qccYIfA" target="_DoriGGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DosJEmYVEemU3f_qccYIfA" source="_DoriFGYVEemU3f_qccYIfA" target="_DoriGGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DosJE2YVEemU3f_qccYIfA" source="_DoriAGYVEemU3f_qccYIfA" target="_DoriFGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DosJFGYVEemU3f_qccYIfA" source="_DoriBGYVEemU3f_qccYIfA" target="_DoriFGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DosJFWYVEemU3f_qccYIfA" source="_DoriDGYVEemU3f_qccYIfA" target="_DoriFGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DosJFmYVEemU3f_qccYIfA" source="_DoriEGYVEemU3f_qccYIfA" target="_DoriFGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DosJF2YVEemU3f_qccYIfA" source="_DoriAGYVEemU3f_qccYIfA" target="_DoriDGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DosJGGYVEemU3f_qccYIfA" source="_DoriBGYVEemU3f_qccYIfA" target="_DoriDGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DosJGWYVEemU3f_qccYIfA" source="_DoriAGYVEemU3f_qccYIfA" target="_DoriEGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DoswIGYVEemU3f_qccYIfA" source="_DoriBGYVEemU3f_qccYIfA" target="_DoriEGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DoswIWYVEemU3f_qccYIfA" source="_DoriDGYVEemU3f_qccYIfA" target="_DoriEGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DoswImYVEemU3f_qccYIfA" source="_DoriFGYVEemU3f_qccYIfA" target="_DoriHGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DoswI2YVEemU3f_qccYIfA" source="_DoriGGYVEemU3f_qccYIfA" target="_DoriHGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DoswJGYVEemU3f_qccYIfA" source="_DoriAGYVEemU3f_qccYIfA" target="_DoriCGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DoswJWYVEemU3f_qccYIfA" source="_DoriBGYVEemU3f_qccYIfA" target="_DoriCGYVEemU3f_qccYIfA"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_DofUwGYVEemU3f_qccYIfA" type="AD" element="_DoetsGYVEemU3f_qccYIfA" name="Design Architecture and System Core" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_DofUwWYVEemU3f_qccYIfA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_DofUwmYVEemU3f_qccYIfA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_DofUw2YVEemU3f_qccYIfA"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_Fhs5IGYVEemU3f_qccYIfA" name="Develop a Version">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fhs5IWYVEemU3f_qccYIfA" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fhs5ImYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_MvDC4GYQEemD98_zFpAUaw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fhs5I2YVEemU3f_qccYIfA" key="type" value="Phase"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_Fh5tcGYVEemU3f_qccYIfA" name="Identify prioritized requirements to address in iteration" outgoing="_Fh5tfGYVEemU3f_qccYIfA _Fh5tfmYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fh5tcWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fh5tcmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_PnZwEGYQEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fh5tc2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_Fh5tdGYVEemU3f_qccYIfA" name="Implement the version" outgoing="_Fh5tfWYVEemU3f_qccYIfA" incoming="_Fh5tfmYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fh5tdWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fh5tdmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_PnZwEWYQEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fh5td2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_Fh5teGYVEemU3f_qccYIfA" name="Test to assure that functionality is conforming to requirements" incoming="_Fh5tfGYVEemU3f_qccYIfA _Fh5tfWYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fh5teWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fh5temYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_PnZwEmYQEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fh5te2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Fh5tfGYVEemU3f_qccYIfA" source="_Fh5tcGYVEemU3f_qccYIfA" target="_Fh5teGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Fh5tfWYVEemU3f_qccYIfA" source="_Fh5tdGYVEemU3f_qccYIfA" target="_Fh5teGYVEemU3f_qccYIfA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Fh5tfmYVEemU3f_qccYIfA" source="_Fh5tcGYVEemU3f_qccYIfA" target="_Fh5tdGYVEemU3f_qccYIfA"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_Fhs5JGYVEemU3f_qccYIfA" type="AD" element="_Fhs5IGYVEemU3f_qccYIfA" name="Develop a Version" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_Fhs5JWYVEemU3f_qccYIfA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_Fhs5JmYVEemU3f_qccYIfA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_Fhs5J2YVEemU3f_qccYIfA"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_LP9ccGYVEemU3f_qccYIfA" name="Elicit Customer Feedback">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LP9ccWYVEemU3f_qccYIfA" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LP9ccmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_z1RQcWYQEemD98_zFpAUaw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LP9cc2YVEemU3f_qccYIfA" key="type" value="Phase"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_LQH0gGYVEemU3f_qccYIfA" name="Clean and Analyze feedback">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LQH0gWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LQH0gmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_2mD9EGYQEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LQH0g2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_LP9cdGYVEemU3f_qccYIfA" type="AD" element="_LP9ccGYVEemU3f_qccYIfA" name="Elicit Customer Feedback" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_LP9cdWYVEemU3f_qccYIfA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_LP9cdmYVEemU3f_qccYIfA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_LP9cd2YVEemU3f_qccYIfA"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_MdveMGYVEemU3f_qccYIfA" name="Incorporate Customer Feedback">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MdveMWYVEemU3f_qccYIfA" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MdveMmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_3kpsQGYQEemD98_zFpAUaw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MdveM2YVEemU3f_qccYIfA" key="type" value="Phase"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_Md7EYGYVEemU3f_qccYIfA" name="Impact Analysis of New Requirements" outgoing="_Md7rdGYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Md7EYWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Md7EYmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_6JckQGYQEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Md7EY2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_Md7rcGYVEemU3f_qccYIfA" name="Manage requirements change" incoming="_Md7rdGYVEemU3f_qccYIfA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Md7rcWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Md7rcmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_6JckQWYQEemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Md7rc2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Md7rdGYVEemU3f_qccYIfA" source="_Md7EYGYVEemU3f_qccYIfA" target="_Md7rcGYVEemU3f_qccYIfA"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_MdveNGYVEemU3f_qccYIfA" type="AD" element="_MdveMGYVEemU3f_qccYIfA" name="Incorporate Customer Feedback" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_MdveNWYVEemU3f_qccYIfA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_MdveNmYVEemU3f_qccYIfA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_MdveN2YVEemU3f_qccYIfA"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_NoNtQGYVEemU3f_qccYIfA" name="Deliver Final Version">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NoNtQWYVEemU3f_qccYIfA" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NoNtQmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_9dkncWYQEemD98_zFpAUaw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NoNtQ2YVEemU3f_qccYIfA" key="type" value="Phase"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_NoXeQGYVEemU3f_qccYIfA" name="Distribution of Software">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NoXeQWYVEemU3f_qccYIfA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NoXeQmYVEemU3f_qccYIfA" key="uri" value="uma://_m3pPsF76EemGWvwDoSVWMA#_B17HwGYREemD98_zFpAUaw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NoXeQ2YVEemU3f_qccYIfA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_NoNtRGYVEemU3f_qccYIfA" type="AD" element="_NoNtQGYVEemU3f_qccYIfA" name="Deliver Final Version" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_NoNtRWYVEemU3f_qccYIfA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_NoNtRmYVEemU3f_qccYIfA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_NoNtR2YVEemU3f_qccYIfA"/>
   </notation:Diagram>
 </xmi:XMI>

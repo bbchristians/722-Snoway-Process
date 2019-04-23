@@ -20,9 +20,6 @@
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0Exol1PEemG5bi738it6g" name="Categories" guid="_w0Exol1PEemG5bi738it6g">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0Exo11PEemG5bi738it6g" name="Domains" guid="_w0Exo11PEemG5bi738it6g"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExpF1PEemG5bi738it6g" name="Disciplines" guid="_w0ExpF1PEemG5bi738it6g">
-          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_OKL2UGCNEemNa4wjQ2tO5A" name="test_discipline" guid="_OKL2UGCNEemNa4wjQ2tO5A" presentationName="test_discipline">
-            <methodElementProperty xmi:id="_Pmli4GCNEemNa4wjQ2tO5A" name="me_edited" value="true"/>
-          </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_ONFR0GSJEemgtOW9CUqu0A" name="preliminary_requirements_analysis" guid="_ONFR0GSJEemgtOW9CUqu0A" presentationName="Preliminary Requirements Analysis" briefDescription="This stage of the Evolutionary delivery has as its main goal to produce a prioritized set of requirements approved by the stakeholders and described in a way that the whole team can understand in order to start the construction of the architecture and thus development." tasks="_AaYMYGSIEemgtOW9CUqu0A _KAQW8GSHEemgtOW9CUqu0A _ULrMoGSIEemgtOW9CUqu0A _2HOFEGSIEemgtOW9CUqu0A">
             <methodElementProperty xmi:id="_-3OssGSJEemgtOW9CUqu0A" name="me_edited" value="true"/>
           </contentElements>
@@ -55,14 +52,16 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExqF1PEemG5bi738it6g" name="StandardCategories" guid="_w0ExqF1PEemG5bi738it6g"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExqV1PEemG5bi738it6g" name="CustomCategories" guid="_w0ExqV1PEemG5bi738it6g">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0Exql1PEemG5bi738it6g" name="Hidden" guid="_w0Exql1PEemG5bi738it6g">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_w0Exq11PEemG5bi738it6g" name="Custom Categories" guid="_w0Exq11PEemG5bi738it6g" categorizedElements="_UhEGUGYTEemU3f_qccYIfA"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_w0Exq11PEemG5bi738it6g" name="Custom Categories" guid="_w0Exq11PEemG5bi738it6g" categorizedElements="_UhEGUGYTEemU3f_qccYIfA _YjfZ8GYTEemU3f_qccYIfA"/>
           </childPackages>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_UhEGUGYTEemU3f_qccYIfA" name="evolutionary_delivery" guid="_UhEGUGYTEemU3f_qccYIfA" presentationName="Evolutionary Delivery">
             <methodElementProperty xmi:id="_pYoyIGYTEemU3f_qccYIfA" name="me_edited" value="true"/>
-            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_YjfZ8GYTEemU3f_qccYIfA"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_m3pPsF76EemGWvwDoSVWMA#_m3pPsV76EemGWvwDoSVWMA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_YjfZ8GYTEemU3f_qccYIfA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_YjfZ8GYTEemU3f_qccYIfA" name="new_custom_category" guid="_YjfZ8GYTEemU3f_qccYIfA" presentationName="new_custom_category"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_YjfZ8GYTEemU3f_qccYIfA" name="disciplines" guid="_YjfZ8GYTEemU3f_qccYIfA" presentationName="Disciplines" categorizedElements="_vQ-28GSREemgtOW9CUqu0A _ejf34GSPEemgtOW9CUqu0A _tZYOYGSMEemgtOW9CUqu0A _bh3vYGSOEemgtOW9CUqu0A _fMZOcGSQEemgtOW9CUqu0A _Yo4osGSREemgtOW9CUqu0A _ONFR0GSJEemgtOW9CUqu0A">
+            <methodElementProperty xmi:id="_02Q2kGYUEemU3f_qccYIfA" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExrF1PEemG5bi738it6g" name="CoreContent" guid="_w0ExrF1PEemG5bi738it6g">
