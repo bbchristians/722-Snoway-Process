@@ -55,8 +55,14 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExqF1PEemG5bi738it6g" name="StandardCategories" guid="_w0ExqF1PEemG5bi738it6g"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExqV1PEemG5bi738it6g" name="CustomCategories" guid="_w0ExqV1PEemG5bi738it6g">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0Exql1PEemG5bi738it6g" name="Hidden" guid="_w0Exql1PEemG5bi738it6g">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_w0Exq11PEemG5bi738it6g" name="Custom Categories" guid="_w0Exq11PEemG5bi738it6g"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_w0Exq11PEemG5bi738it6g" name="Custom Categories" guid="_w0Exq11PEemG5bi738it6g" categorizedElements="_UhEGUGYTEemU3f_qccYIfA"/>
           </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_UhEGUGYTEemU3f_qccYIfA" name="evolutionary_delivery" guid="_UhEGUGYTEemU3f_qccYIfA" presentationName="Evolutionary Delivery">
+            <methodElementProperty xmi:id="_pYoyIGYTEemU3f_qccYIfA" name="me_edited" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_YjfZ8GYTEemU3f_qccYIfA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_m3pPsF76EemGWvwDoSVWMA#_m3pPsV76EemGWvwDoSVWMA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_YjfZ8GYTEemU3f_qccYIfA" name="new_custom_category" guid="_YjfZ8GYTEemU3f_qccYIfA" presentationName="new_custom_category"/>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExrF1PEemG5bi738it6g" name="CoreContent" guid="_w0ExrF1PEemG5bi738it6g">
@@ -222,13 +228,13 @@
             <methodElementProperty xmi:id="_JIGYMGSNEemgtOW9CUqu0A" name="me_edited" value="true"/>
             <presentation xmi:id="-MO-PIKQAR4nI4OuOi-CydQ" href="uma://-MO-PIKQAR4nI4OuOi-CydQ#-MO-PIKQAR4nI4OuOi-CydQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_gDmgEGSMEemgtOW9CUqu0A" name="validate_preliminary_builds_with_stakeholders" guid="_gDmgEGSMEemgtOW9CUqu0A" presentationName="Validate Preliminary Builds with Stakeholders" briefDescription="Deliver builds that contain risky or unclear requirements in order to address whether they have been implemented correctly as desired by the customer, and that other potentially risky features are implemented properly.&#xD;&#xA;" performedBy="_l-uMkGQ9EemD98_zFpAUaw _XzBi4GQ9EemD98_zFpAUaw" mandatoryInput="_7_0zoGQ6EemD98_zFpAUaw" output="_7_0zoGQ6EemD98_zFpAUaw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_gDmgEGSMEemgtOW9CUqu0A" name="validate_preliminary_builds_with_stakeholders" guid="_gDmgEGSMEemgtOW9CUqu0A" presentationName="Validate Preliminary Builds with Stakeholders" briefDescription="Deliver builds that contain risky or unclear requirements in order to address whether they have been implemented correctly as desired by the customer, and that other potentially risky features are implemented properly.&#xD;&#xA;" performedBy="_l-uMkGQ9EemD98_zFpAUaw _XzBi4GQ9EemD98_zFpAUaw" mandatoryInput="_7_0zoGQ6EemD98_zFpAUaw _F09FsGQ7EemD98_zFpAUaw" output="_7_0zoGQ6EemD98_zFpAUaw">
             <methodElementProperty xmi:id="_JG43QGSNEemgtOW9CUqu0A" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_OtpEYGSNEemgtOW9CUqu0A" name="identify_prioritized_requirements_to_address_in_iteration" guid="_OtpEYGSNEemgtOW9CUqu0A" presentationName="Identify prioritized requirements to address in iteration" briefDescription="This task is performed to identify the set of requirements that are to be addressed on the iteration based on their priority." performedBy="_l-uMkGQ9EemD98_zFpAUaw" mandatoryInput="_562goGQ5EemD98_zFpAUaw _7_0zoGQ6EemD98_zFpAUaw" output="_OO_SwGQ7EemD98_zFpAUaw">
             <methodElementProperty xmi:id="_mppVEGSOEemgtOW9CUqu0A" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jGCg4GSNEemgtOW9CUqu0A" name="implement_the_version" guid="_jGCg4GSNEemgtOW9CUqu0A" presentationName="Implement the version" briefDescription="The purpose of this task is to add functionality to the existing version until it satisfied all the new requirements. For this the responsible roles should perform the following: Design solution, Code Implementation / Modify Code, Unit / Integration testing, Unit Regression Testing, Code Reviews, Create Build " performedBy="_6SNT4GQ9EemD98_zFpAUaw" mandatoryInput="_562goGQ5EemD98_zFpAUaw _OO_SwGQ7EemD98_zFpAUaw _7_0zoGQ6EemD98_zFpAUaw" output="_hVwvUGQ7EemD98_zFpAUaw _op5EQGQ7EemD98_zFpAUaw _Wa6yYGQ7EemD98_zFpAUaw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jGCg4GSNEemgtOW9CUqu0A" name="implement_the_version" guid="_jGCg4GSNEemgtOW9CUqu0A" presentationName="Implement the version" briefDescription="The purpose of this task is to add functionality to the existing version until it satisfied all the new requirements. For this the responsible roles should perform the following: Design solution, Code Implementation / Modify Code, Unit / Integration testing, Unit Regression Testing, Code Reviews, Create Build " performedBy="_6SNT4GQ9EemD98_zFpAUaw" mandatoryInput="_562goGQ5EemD98_zFpAUaw _OO_SwGQ7EemD98_zFpAUaw _7_0zoGQ6EemD98_zFpAUaw _ZsTgEGQ6EemD98_zFpAUaw" output="_hVwvUGQ7EemD98_zFpAUaw _op5EQGQ7EemD98_zFpAUaw _Wa6yYGQ7EemD98_zFpAUaw">
             <methodElementProperty xmi:id="_mqZjAGSOEemgtOW9CUqu0A" name="me_edited" value="true"/>
             <presentation xmi:id="-AfTmH_HRAN3H-Ka-cEvsHw" href="uma://-AfTmH_HRAN3H-Ka-cEvsHw#-AfTmH_HRAN3H-Ka-cEvsHw"/>
           </contentElements>
