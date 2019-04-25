@@ -153,7 +153,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_geTtcGQ8EemD98_zFpAUaw" name="approval_for_implemented_version" guid="_geTtcGQ8EemD98_zFpAUaw" presentationName="Approval for Implemented Version" briefDescription="A determination on whether the version supplied to the user satisfied the requirements that it claims to have implemented.">
             <methodElementProperty xmi:id="_5rMMoGQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_oeq2QGQ8EemD98_zFpAUaw" name="bug_report" guid="_oeq2QGQ8EemD98_zFpAUaw" presentationName="Bug Report" briefDescription="A report from the customer on any bugs which were present in the build.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_oeq2QGQ8EemD98_zFpAUaw" name="bug_report" guid="_oeq2QGQ8EemD98_zFpAUaw" presentationName="Bug Report" briefDescription="A report from the customer on any bugs which were present in the build">
             <methodElementProperty xmi:id="_5rE34GQ8EemD98_zFpAUaw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_yoLc4GQ8EemD98_zFpAUaw" name="requirements_change_request" guid="_yoLc4GQ8EemD98_zFpAUaw" presentationName="Requirements Change Request" briefDescription="A request to modify, add, or remove requirements based off of the customer's feedback on the iteration's build. Contains documented reasoning as to why the requirements changes are needed.">
