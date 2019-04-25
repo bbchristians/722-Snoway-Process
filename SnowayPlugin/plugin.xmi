@@ -41,6 +41,9 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_vQ-28GSREemgtOW9CUqu0A" name="deliver_final_version" guid="_vQ-28GSREemgtOW9CUqu0A" presentationName="Deliver Final Version" briefDescription="The purpose of this stage is to deliver the final version of the system to the stakeholders proving user documentation and configuration plan" tasks="_jpEYoGSREemgtOW9CUqu0A">
             <methodElementProperty xmi:id="_3XfrEGSREemgtOW9CUqu0A" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_hAuSkGegEemsiPJC0xgU-Q" name="software_concept" guid="_hAuSkGegEemsiPJC0xgU-Q" presentationName="Software Concept" tasks="_w_vzgGUNEemmFZ-BlWtqCQ _dE6AQGUOEemmFZ-BlWtqCQ _0zHiAGUOEemmFZ-BlWtqCQ">
+            <methodElementProperty xmi:id="_qcj64GegEemsiPJC0xgU-Q" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ExpV1PEemG5bi738it6g" name="RoleSets" guid="_w0ExpV1PEemG5bi738it6g">
           <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_eZ1xQGCMEemcTfvsET9yrA" name="stakeholder" guid="_eZ1xQGCMEemcTfvsET9yrA" presentationName="Stakeholder">
@@ -60,7 +63,7 @@
             <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_YjfZ8GYTEemU3f_qccYIfA"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_05mwEGd1EemsiPJC0xgU-Q"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_YjfZ8GYTEemU3f_qccYIfA" name="disciplines" guid="_YjfZ8GYTEemU3f_qccYIfA" presentationName="Disciplines" categorizedElements="_vQ-28GSREemgtOW9CUqu0A _ejf34GSPEemgtOW9CUqu0A _tZYOYGSMEemgtOW9CUqu0A _bh3vYGSOEemgtOW9CUqu0A _fMZOcGSQEemgtOW9CUqu0A _Yo4osGSREemgtOW9CUqu0A _ONFR0GSJEemgtOW9CUqu0A">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_YjfZ8GYTEemU3f_qccYIfA" name="disciplines" guid="_YjfZ8GYTEemU3f_qccYIfA" presentationName="Disciplines" categorizedElements="_hAuSkGegEemsiPJC0xgU-Q _ONFR0GSJEemgtOW9CUqu0A _tZYOYGSMEemgtOW9CUqu0A _bh3vYGSOEemgtOW9CUqu0A _ejf34GSPEemgtOW9CUqu0A _fMZOcGSQEemgtOW9CUqu0A _Yo4osGSREemgtOW9CUqu0A _vQ-28GSREemgtOW9CUqu0A">
             <methodElementProperty xmi:id="_02Q2kGYUEemU3f_qccYIfA" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_05mwEGd1EemsiPJC0xgU-Q" name="roles_1" guid="_05mwEGd1EemsiPJC0xgU-Q" presentationName="Roles" briefDescription="Contains the role list for the process" categorizedElements="_x0aoMGQ9EemD98_zFpAUaw _6SNT4GQ9EemD98_zFpAUaw _l-uMkGQ9EemD98_zFpAUaw _9d7B8GQ9EemD98_zFpAUaw _XzBi4GQ9EemD98_zFpAUaw _t9KCwGQ9EemD98_zFpAUaw">
