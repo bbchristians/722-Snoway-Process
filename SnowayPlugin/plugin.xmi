@@ -58,9 +58,13 @@
             <methodElementProperty xmi:id="_pYoyIGYTEemU3f_qccYIfA" name="me_edited" value="true"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_m3pPsF76EemGWvwDoSVWMA#_m3pPsV76EemGWvwDoSVWMA"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_YjfZ8GYTEemU3f_qccYIfA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_05mwEGd1EemsiPJC0xgU-Q"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_YjfZ8GYTEemU3f_qccYIfA" name="disciplines" guid="_YjfZ8GYTEemU3f_qccYIfA" presentationName="Disciplines" categorizedElements="_vQ-28GSREemgtOW9CUqu0A _ejf34GSPEemgtOW9CUqu0A _tZYOYGSMEemgtOW9CUqu0A _bh3vYGSOEemgtOW9CUqu0A _fMZOcGSQEemgtOW9CUqu0A _Yo4osGSREemgtOW9CUqu0A _ONFR0GSJEemgtOW9CUqu0A">
             <methodElementProperty xmi:id="_02Q2kGYUEemU3f_qccYIfA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_05mwEGd1EemsiPJC0xgU-Q" name="roles_1" guid="_05mwEGd1EemsiPJC0xgU-Q" presentationName="Roles" briefDescription="Contains the role list for the process" categorizedElements="_x0aoMGQ9EemD98_zFpAUaw _6SNT4GQ9EemD98_zFpAUaw _l-uMkGQ9EemD98_zFpAUaw _9d7B8GQ9EemD98_zFpAUaw _XzBi4GQ9EemD98_zFpAUaw _t9KCwGQ9EemD98_zFpAUaw">
+            <methodElementProperty xmi:id="_8cLwsGd1EemsiPJC0xgU-Q" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>
